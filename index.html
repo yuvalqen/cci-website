@@ -9,7 +9,8 @@
   <meta name="author" content="Yuval Qen">
 
   
-  <meta name="description" content=" Test Test ">
+  <meta name="description" content="Thank you. We&#8217;ll get back to you shortly Name * אתה חייב להשיב לשאלה זו Email * חייבת להיות כתובת דוא&#8221;ל חוקית
+אתה חייב להשיב לשאלה זו &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -32,7 +33,16 @@
 
   
 
-</head>
+
+
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  <!-- jQuery Form Plugin -->
+  <script src="http://malsup.github.com/jquery.form.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script> 
+  <script src="/javascripts/google_form.js"></script></head>
 
 <body>
   <div id="main">
@@ -44,17 +54,65 @@
 <div class="about_us_pane pane">
   <img class="yuval_photo" src="images/yuval_photo.png">
   <img class="ron_photo" src="images/ron_photo.png">
-  <img class="yuval_linkedin_icon" src="images/linkedin_icon.png">
-  <img class="ron_linkedin_icon" src="images/linkedin_icon.png">
+  <a href="http://il.linkedin.com/in/yuvalc/" target="_blank"><img class="yuval_linkedin_icon" src="images/linkedin_icon.png"></a>
+  <a href="http://www.linkedin.com/pub/ron-oren/29/7b8/418" target="_blank"><img class="ron_linkedin_icon" src="images/linkedin_icon.png"></a>
 </div>
 <div class="how_does_it_work_pane pane">
-Test
 </div>
 <div class="contact_us_pane pane">
-Test
+<div class="google-form-wrapper"><p class='success-msg'>Thank you. We&#8217;ll get back to you shortly </p><form action="https://docs.google.com/forms/d/1hmIxfuOBwtJBujJFnH62M76ZBFk3y7GaDJJ3kBs4eNM/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit=""><ol style="padding-left: 0">
+<div class="ss-form-question errorbox-good">
+<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label aria-hidden class="ss-q-item-label aria-todo" for="entry_1389203845"><div class="ss-q-title">Name
+<label for="itemView.getDomIdToLabel()" aria-label="(שדה חובה)"></label>
+<span class="ss-required-asterisk">*</span>
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.1389203845" value="" class="ss-q-short" id="entry_1389203845" dir="auto" aria-label="Name  " aria-required="true" required="" title=""><div class="error-message"></div>
+<div class="required-message">אתה חייב להשיב לשאלה זו</div>
+
+</div></div>
+</div> <div class="ss-form-question errorbox-good">
+<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label aria-hidden class="ss-q-item-label aria-todo" for="entry_1662602458"><div class="ss-q-title">Email
+<label for="itemView.getDomIdToLabel()" aria-label="(שדה חובה)"></label>
+<span class="ss-required-asterisk">*</span>
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="email" name="entry.1662602458" value="" class="ss-q-short" id="entry_1662602458" dir="auto" aria-label='Email  חייבת להיות כתובת דוא"ל חוקית' aria-required="true" required="" title='חייבת להיות כתובת דוא"ל חוקית'><div class="error-message">חייבת להיות כתובת דוא&#8221;ל חוקית</div>
+<div class="required-message">אתה חייב להשיב לשאלה זו</div>
+
+</div></div>
+</div> <div class="ss-form-question errorbox-good">
+<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
+<label aria-hidden class="ss-q-item-label aria-todo" for="entry_842420310"><div class="ss-q-title">Content
+<label for="itemView.getDomIdToLabel()" aria-label="(שדה חובה)"></label>
+<span class="ss-required-asterisk">*</span>
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<textarea name="entry.842420310" rows="8" cols="0" class="ss-q-long" id="entry_842420310" dir="auto" aria-label="Content  " aria-required="true" required=""></textarea><div class="error-message"></div>
+<div class="required-message">אתה חייב להשיב לשאלה זו</div>
+
+</div></div>
+</div>
+<input type="hidden" name="draftResponse" value='[,,"5064101518386856818"]
+'><input type="hidden" name="pageHistory" value="0"><input type="hidden" name="fbzx" value="5064101518386856818"><div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr>
+<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="rtl">
+<input type="submit" name="submit" value="שלח" id="ss-submit"><div class="ss-secondary-text">‏לעולם אל תשלח סיסמאות באמצעות טפסים ב-Google.</div>
+</td>
+</tr></tbody></table></div>
+</ol></form></div>
 </div>
 <img class="pin_icon_img" src="images/pin_icon.png">
 <img class="down_arrow_icon_img" src="images/down_arrow_icon.png">
+
+<script>
+$(function() {
+  $("#entry_1389203845").attr("placeholder", "Name");
+  $("#entry_1662602458").attr("placeholder", "Email");
+  $("#entry_842420310").attr("placeholder", "Your thoughts...");
+});
+</script>
 
     </div>
   </div>
