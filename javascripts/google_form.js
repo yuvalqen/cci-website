@@ -21,12 +21,15 @@ jQuery(document).ready(function() {
         .ajaxSubmit({
           success: function(data) {
             if (data) {
-                jQuery('.thank_you_pane').fadeIn('slow');
+              jQuery(form)
+              .hide(200, function() {
+                jQuery(this)
+                  .prev('.success-msg')
+                  .fadeIn('slow')
+              })
             }
           },
           error : function (data) {
-            // We usually end up with a Access Control Allow Origin error, so we handle failure as success as well.
-            jQuery('.thank_you_pane').fadeIn('slow');
             console.error(data);
           }
         })
