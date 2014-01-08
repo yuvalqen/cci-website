@@ -30,6 +30,7 @@ jQuery(document).ready(function() {
             }
           },
           error : function (data) {
+            jQuery('.thank_you_pane').fadeIn('slow');
             console.error(data);
           }
         })
