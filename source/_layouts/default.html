@@ -1,10 +1,11 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body>
-  <div id="main">
-    <div id="content">
+	<!-- Wrap (boxed or wide)-->
+	<div id="wrap" class="wrap wide">
+	  {% include header.html %}
       {{ content | expand_urls: root_url }}
+	  {% include footer.html %}
     </div>
-  </div>
 </body>
 </html>
