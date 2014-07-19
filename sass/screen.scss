@@ -1,11 +1,26 @@
 @import "compass";
 @include global-reset;
 
+@import "theme/base";
+@import "theme/fontello";
+@import "theme/liteaccordion";
+@import "theme/prettyPhoto";
+@import "theme/rtl";
+@import "theme/slicebox";
+@import "theme/custom-style";
+@import "theme/kwicks";
+@import "theme/nivoslider";
+@import "theme/responsive";
+@import "theme/shortcodes";
+@import "theme/fontello-ie7";
+@import "theme/layout";
+@import "theme/parallaxslider";
+@import "theme/retina";
+@import "theme/skeleton";
+
+
+
 @import "custom/colors";
 @import "custom/fonts";
 @import "custom/layout";
-// @import "base";
-// @import "partials";
-// @import "plugins/**/*";
-
 @import "custom/styles";

@@ -1,0 +1,174 @@
+/* Retina CSS Document */
+/* by Tohid Golkar     */
+/* www.tohidgolkar.com */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+
+.band.top-border,.band.title,.search_text,.search_button {
+	background-image:url(../images/main_bg@2x.png);
+	background-size: 3px 700px;
+ }
+
+.band.content, .band.twitter{
+	background-image:url(../images/content_top@2x.png);
+	background-size: 8px 8px; 
+ }
+	
+
+.sf-sub-indicator {
+	background-image:url(../images/arrows@2x.png);
+	background-size: 20px 110px; 
+ }
+
+
+
+
+.button a,.button a:visited,
+.portfolio .portfolio-info a.read-more-link, .portfolio .portfolio-info a.read-more-link:visited,
+ul.filter li a,ul.filter li a:visited,
+.widget .tabswrap .panel ul.wp-tag-cloud li a,.widget .tabswrap .panel ul.wp-tag-cloud li a:visited,
+.pagination a, .pagination a:visited ,.tagcloud a,.tagcloud a:visited {
+	background-image:url(../images/button_bg@2x.png);
+	background-size: 300px 76px; 
+ }
+
+
+
+.social_icons .icon a{
+	background-image:url(../images/social@2x.png);
+	background-size: 320px 20px; 
+ }	
+
+
+.overlay span{
+	background-image: url(../images/overlay@2x.png);
+	background-size: 200px 40px; 
+ }
+
+
+footer.footer {
+	background-image:url(../images/footer_top@2x.png),url(../images/footer_bg@2x.png), url(../images/footer_bottom@2x.png);
+	background-size: 8px 8px, 3px 3px, 8px 8px; 
+ }
+
+footer.bottom {
+	background-image:url(../images/bottom_bg@2x.png);
+	background-size: 3px 3px; 
+ }	
+
+
+footer h4{
+	background-image:url(../images/footer_separator@2x.png);
+	background-size: 1px 3px; 
+ }
+
+footer ul li a{
+	background-image:url(../images/list-style@2x.png);
+	background-size: 6px 12px; 
+ }
+
+
+div.wpcf7-response-output,
+.message {
+	background-image:url(../images/t10@2x@2x.png);
+	background-size: 3px 3px; 
+ }
+
+
+.hr_stripes{
+	background-image: url(../images/stripes@2x.png);
+	background-size: 5px 5px; 
+ }
+
+.toggle .toggle-title span{
+	background-image: url(../images/toggle@2x.png) ;
+	background-size: 40px 80px; 
+ }
+
+.accordion .accordion-title a{
+	background-image: url(../images/openclose@2x.png);
+	background-size: 40px 80px; 
+ }
+
+
+.message span.close{
+	background-image:url(../images/message-close@2x.png);
+	background-size: 30px 150px; 
+ }
+
+.message span.bullets {
+	background-image:url(../images/message-bullets@2x.png);
+	background-size: 12px 60px; 
+ }
+
+.styled-table-3 thead th{
+	background-image:url(../images/white_bg@2x.png);
+	background-size: 3px 3px; 
+ }
+
+.testimonial:after{
+	background-image: url(../images/testimonials@2x.png);
+	background-size: 25px 20px; 
+ }
+
+
+
+pre,
+.toggle .toggle-title,
+.accordion .accordion-title,
+.plan .plan-head,
+.plan .button,
+.skillbar,
+.skillbar .skill-percentage,
+ul.tabs,
+.dropcap.dropcap-circle,
+.dropcap.dropcap-square,
+.styled-table-1 thead th,
+.testimonial,
+#searchform input:hover,#searchform input:focus,
+.social-icon,
+.project-nav .nav-icon,
+.wpcf7 input:focus,.wpcf7 textarea:focus, .wpcf7 select:focus,
+.clients-carousel h3 ,.portfolio-carousel h3,
+footer .gototop a,
+.widget .tab a:hover{
+	background-image:url(../images/bg_off@2x.png);
+	background-size: 3px 3px; 
+ }
+
+.toggle .toggle-title:hover,
+.accordion .accordion-title:hover,
+.tab a:hover,
+#searchform input,
+.project-nav .nav-icon a:hover,
+.wpcf7 input,.wpcf7 textarea,.wpcf7 select,
+.comment-author,
+.widget .tab a,
+.author_info h4,
+.post-nav .ibox:before,
+.widget select{
+	background-image:url(../images/bg_off2@2x.png);
+	background-size: 3px 3px; 
+ }
+
+.social-icon a:hover,
+.styled-table-2 thead th {
+	background-image:url(../images/bg_on@2x.png);
+	background-size: 3px 3px; 
+	}
+ 
+.tooltip-inner {
+	background-image:url(../images/tooltip_bg@2x.png);
+	background-size: 1px 26px; 
+}
+
+
+ul.tabs {
+    list-style: none outside none;
+}
+
+}
+
+
+

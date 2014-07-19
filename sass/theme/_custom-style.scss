@@ -1,0 +1,369 @@
+/*
+Template Name: Interio
+Author: Tohid Golkar
+Author URI: http://tohidgolkar.com
+Version: 1.2
+*/
+
+
+
+/* Import Google Font:
+/******************************************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+/* for customization you can edit this styles 
+/******************************************************/
+
+body{
+	
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #333333;
+	
+	
+	/* For custom background color or Images 
+	background-color:#eee;
+	background-image:url('');
+	background-repeat:repeat;
+	*/
+	
+	
+	
+	/* For strech background
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover; 
+	*/
+	
+	/* Background Pattern  (01.png to 98.png)*/
+	/*background-image:url(../images/pattern/92.png); */ 
+	
+}
+	
+			
+	/* Boxed layout background color 			
+	.wrap.boxed, .wrap.boxed-margin{background-color:;}';
+	*/
+	
+	/*Wide layout background color 			
+	.wrap.wide{background-color:;}
+	*/			
+
+	.wrap.wide,.search_text{
+		background-color:#FFFFFF;
+		}
+
+	/* Typography */
+
+	h1{
+		font-family:'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 46px;
+		font-weight: 700;
+		color: #333333;
+		}
+	
+	h1.logo{
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 28px;
+		font-weight: 700;
+		color: #666666;
+		}         
+	
+	h2{
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 35px;
+		font-weight:700;
+		color: #333333;
+		}
+	
+	h3{
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 28px;
+		font-weight: 700;
+		color: #333333;
+		}
+	
+	h4{
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 21px;
+		font-weight: 400;
+		color: #333333;
+		}
+	
+	h5{
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: #333333;
+		}
+	
+	h6{
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		font-weight: 700;
+		color: #333333;
+		}
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited{
+		font-weight: inherit;
+		color: inherit;
+		}
+	
+	h1.title,h2.title,h3.title,h4.title,h5.title,h6.title {
+		border-color:#CCCCCC;
+		}
+	
+	a, a:visited{
+		color: #666666;
+		}
+		
+	a:hover, a:focus,.content a:hover{
+		color: #333333;
+		}
+	
+	/* Header Height is 90px in default */
+	.band.main {
+		background:#FFFFFF;
+		height:90px; 
+		}
+	.band.title{margin-top:90px;}
+	h1.logo{line-height:90px;}  
+	
+	
+	
+	/* Navigation Top Margin */
+	.navbar{margin-top:22px;}
+	
+	
+	
+	/* Navigation Font Size */
+	.sf-menu { font-size: 15px;}
+	
+	
+	/* Buttons Color */
+	.button a, a.read-more-link,ul.filter li.current a,
+	.pagination a.selected{background-color:#CC0000 !important;border-top:solid 1px #CC0000 !important; }
+	.pagination a.inactive,.widget .tabswrap .panel ul.wp-tag-cloud li a{background-color:#888 !important;border-top:solid 1px #888 !important; }
+	.button a:hover,  a.read-more-link:hover, ul.filter li a:hover,ul.filter li.current a,.widget .tabswrap .panel ul.wp-tag-cloud li a:hover,
+	.pagination a:hover, .pagination a.selected:hover,.tagcloud a:hover{background-color:#CC0000 !important;border-top:solid 1px #CC0000 !important; }
+	
+	
+	/* Icons Color Settings */
+	[class^="icon-"]:before,[class*=" icon-"]:before,
+	.clients #nxt:hover ,.portfolio-carousel #pnxt:hover,.clients #prv:hover, .portfolio-carousel #pprv:hover,footer .gototop a:hover {color:#CC0000;}
+	.sf-menu [class^="icon-"]:before,.sf-menu [class*=" icon-"]:before {color:#CC0000;}
+	.twitter_icon .icon-twitter:before,	.twitter_icon .icon-twitter-circled:before {color:#CCCCCC;}
+	footer [class^="icon-"]:before,footer [class*=" icon-"]:before {color:#999999;}
+	.tab .ibtn:before,.respo_menu:before {color:#CC0000;}
+	ul.flex-direction-nav li a,	ol.flex-control-nav li a:hover,
+	ol.flex-control-nav li a.flex-active,.nivo-directionNav a,.nivo-controlNav a:hover,.nivo-controlNav a.active,.nav-arrows a,	.pxs_navigation span {background:#CC0000 !important;}
+	span.ibtn:before {color:#EEEEEE;}
+	
+	
+	.search_text{background-color:#DEDEDE;}
+	
+	
+	/* Image Overlay button color */
+	.overlay span {background-color:#CC0000;}
+	
+	
+	/* Tooltip Color */
+	.tooltip-inner {background-color:#CC0000;}
+	.tooltip.top .tooltip-arrow {border-top-color:#CC0000;}
+	.tooltip.left .tooltip-arrow {border-left-color:#CC0000;}
+	.tooltip.bottom .tooltip-arrow  {border-bottom-color:#CC0000;}
+	.tooltip.right .tooltip-arrow  {border-right-color:#CC0000;}
+	
+	
+	
+	
+
+	.largetext {
+		font-size:24px;
+		}
+	
+	.custom_text_1{
+		font-size:26px;
+		color: #aaa;
+		height:64px;
+		line-height:24px;
+		margin-top:-6px;
+		}
+
+	
+	
+	/* HR Custom */
+	.hr_custom_1{
+		margin:10px 0px 30px 0px !important;
+		border-top-color:#ccc !important;
+		}
+	
+	.hr_custom_2{
+		margin:10px 0px 30px 0px !important;
+		}
+
+	.hr_custom_3{
+		border-top-color:#ff0000 !important;
+		}	
+		
+	.hr_custom_4{
+		border-top-color:#ff9c00 !important;
+		}
+		
+	.hr_custom_5{
+		border-top-color:#8adc16 !important;
+		}
+		
+	.hr_custom_6{
+		border-top-color:#00a8ff !important;
+		}
+		
+		
+	.hr_custom_7{
+		border-top-color:#9000ff !important;
+		}
+		
+	.hr_custom_8{
+		border-top-color:#ff0072 !important;
+		}
+		
+
+	/* Custom Google Font Style */
+	.gfont_custom_1 {
+		font-family:'Codystar', serif !important;
+		font-size:51px !important;
+		line-height:51px !important;
+		color:#999;
+		margin: 0 !important;
+		}
+		
+	.gfont_custom_2 {
+		font-family:'Faster One', serif !important;
+		font-size:56px !important;
+		line-height:56px !important;
+		color:#aaa;  margin: 6px 15px !important;
+		}
+		
+	.gfont_custom_3 {
+		font-family:'Sacramento', serif !important;
+		font-size:60px !important;
+		line-height:60px !important;
+		color:#aaa;
+		text-align:center;
+		margin: 30px 0 !important;
+		}	
+		
+	.gfont_custom_4 {
+		font-family:'Codystar', serif !important;
+		font-size:50px !important;
+		line-height:50px !important;
+		color:#666666;
+		margin: 20px 0 !important;
+		}
+		
+	.gfont_custom_5 {
+		font-family:'Prosto One', serif !important;
+		font-size:27px !important;
+		line-height:27px !important;
+		color:#92c419;
+		margin: 30px 0 !important;
+		}
+		
+	.gfont_custom_6 {
+		font-family:'Arizonia', serif !important;
+		font-size:42px !important;
+		line-height:42px !important;
+		color:#3387cf;
+		margin: 30px 0 !important;
+		}	
+		
+	.gfont_custom_7 {
+		font-family:'Sacramento', serif !important;
+		font-size:50px !important;
+		line-height:50px !important;
+		color:#333333;
+		margin: 20px 0 !important;
+		}	
+		
+	.gfont_custom_8 {
+		
+		}	
+		
+	/* Google Map Custom Size */
+	.gmap_custom_1{
+		width: 940px;
+		height: 350px !important;
+		}
+		
+	.gmap_custom_2{
+		width: 940px;
+		height: 200px !important;
+		}
+		
+	.gmap_custom_3{
+		width: 300px;
+		height: 152px !important;
+		}	
+		
+	.gmap_custom_4{
+		width: 940px;
+		height: 450px !important;
+		}	
+		
+	/* Facebook Style */
+	facebook_style{
+		overflow:hidden;
+		width:280px;
+		height: 676px;
+		}
+		
+		
+	/* Highlight Custom Style */
+	.highlight_custom_1 {
+		background-color:#CC0000;
+		color: #FFFFFF;
+		}
+		
+	.highlight_custom_2 {
+		background-color:#666666;
+		color: #cccccc;
+		}	
+		
+	.highlight_custom_3 {
+		background-color:#1062a1;
+		color: #ffffff;
+		}		
+		
+		
+		
+	/* Custom Pricing Table */
+	.pricing-table .featured{
+		background-color:#cc0000;
+		}
+		
+	.pricing-table .custom_color_1{
+		background-color:#999;
+		}
+		
+	.pricing-table .custom_color_2{
+		background-color:#33b600;
+		}
+		
+	.pricing-table .custom_color_3{
+		background-color:#ee0000;
+		}
+		
+	.pricing-table .custom_color_4{
+		background-color:#007ae2;
+		}
+		
+		
+		
+		
+		
+		
+		
+		

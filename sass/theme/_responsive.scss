@@ -1,0 +1,409 @@
+/*================================================== */
+/* SKELECTON RESPONSIVE */
+/*================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .column,
+        .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+        .container .one.column,
+        .container .one.columns                     { width: 28px; }
+        .container .two.columns                     { width: 76px; }
+        .container .three.columns                   { width: 124px; }
+        .container .four.columns                    { width: 172px; }
+        .container .five.columns                    { width: 220px; }
+        .container .six.columns                     { width: 268px; }
+        .container .seven.columns                   { width: 316px; }
+        .container .eight.columns                   { width: 364px; }
+        .container .nine.columns                    { width: 412px; }
+        .container .ten.columns                     { width: 460px; }
+        .container .eleven.columns                  { width: 508px; }
+        .container .twelve.columns                  { width: 556px; }
+        .container .thirteen.columns                { width: 604px; }
+        .container .fourteen.columns                { width: 652px; }
+        .container .fifteen.columns                 { width: 700px; }
+        .container .sixteen.columns                 { width: 748px; }
+
+        .container .one-third.column                { width: 236px; }
+        .container .two-thirds.column               { width: 492px; }
+		.container .one-fifth.column                { width: 133px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 48px; }
+        .container .offset-by-two                   { padding-left: 96px; }
+        .container .offset-by-three                 { padding-left: 144px; }
+        .container .offset-by-four                  { padding-left: 192px; }
+        .container .offset-by-five                  { padding-left: 240px; }
+        .container .offset-by-six                   { padding-left: 288px; }
+        .container .offset-by-seven                 { padding-left: 336px; }
+        .container .offset-by-eight                 { padding-left: 384px; }
+        .container .offset-by-nine                  { padding-left: 432px; }
+        .container .offset-by-ten                   { padding-left: 480px; }
+        .container .offset-by-eleven                { padding-left: 528px; }
+        .container .offset-by-twelve                { padding-left: 576px; }
+        .container .offset-by-thirteen              { padding-left: 624px; }
+        .container .offset-by-fourteen              { padding-left: 672px; }
+        .container .offset-by-fifteen               { padding-left: 720px; }
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .one.column,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column,
+		.container .one-fifth.column  { width: 300px; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven,
+        .container .offset-by-twelve,
+        .container .offset-by-thirteen,
+        .container .offset-by-fourteen,
+        .container .offset-by-fifteen { padding-left: 0; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .one.column,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column,
+		.container .one-fifth.column { width: 420px; }
+    }
+
+
+
+
+/*******************************************************************/
+/* Custom Media Queries (RESPONSIVE) */
+/*******************************************************************/
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.social ul li{margin:6px 0 0 0}
+		
+		#commentform p.onethird ,#commentform p textarea{width:100%}
+		#commentform p label {width:13%}
+		#commentform p input {width:87%}
+		
+		.wrap.boxed .band.main.sticky.fixed,.wrap.boxed-margin .band.main.sticky.fixed {
+			width:100%;
+		}
+		
+		
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		.slider_shadow.shadow1 {margin: -71px 0 0;}
+		.slider_shadow.shadow2 {margin: -46px 0 0;}
+		.slider_shadow.shadow3 {margin: -60px 0 0;}
+		.slider_shadow.shadow4 {margin: -62px 0 0;}
+		.slider_shadow.shadow5,
+		.slider_shadow.shadow6 {margin: -253px 0 0 -17px;}
+		.slider_shadow.shadow5 img,
+		.slider_shadow.shadow6 img {max-width:102%;}
+		
+		.sf-menu a.sf-with-ul {padding:10px 9px}
+		a > .sf-sub-indicator {right:6px}
+		.sf-menu{font-size:14px !important}
+		
+		.search_text:focus {width:70px;}
+		
+		ul.p3col li {width:240px}
+		
+		.portfolio.p1col li{width:748px}
+		.thumb-p1col {width:60%;}
+		.info-p1col {float:left;width:39%;}
+
+		.portfolio.p2col li{width:364px;}
+		.portfolio.p3col li,.portfolio.p4col li{width:236px}
+		
+		.portfolio.p4col li:nth-child(3n) { margin-right: 0; }
+		.portfolio.p4col li:nth-child(4n) { margin-right: 20px; }
+		.portfolio.p4col li:nth-child(12n) { margin-right: 0}
+		
+		.portfolio-carousel .caroufredsel_wrapper {min-height:240px;}
+		.clients-carousel .caroufredsel_wrapper{min-height:65px;}
+	
+		
+		/* SHORTCODES */
+		.plan .price {font-size:28px}
+		.plan .plan-head h3 {font-size:14px}
+		.hr_shadow{background: url(../images/shadow748.png) no-repeat center top;}
+		
+		.widget .tab a{padding:5px 7px !important;font-size:11px !important;}
+		.widget .tab:last-child a{width:43px !important; padding: 5px 8px !important;}
+		
+		.recent-portfolio ul li {width:47%;}
+		a.mini-thumb img {width:85px;}
+		footer .widget .recent-portfolio ul li {width:44%;}
+		footer .widget .recent-portfolio ul li .post-thumbnail a.mini-thumb img {width: 65px;}
+
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+	    .texts-wrap .column, .texts-wrap .columns {margin-top:10px;}
+
+		.respo_menu{display:block;}
+		
+		.wrap.boxed-margin{margin:0 auto;}
+		
+		nav.main ul{display:none;}
+		nav.main {margin-right:0;}
+		.top_search{margin-top:21px;margin-left:10px}
+		.band.main.sticky.fixed .top_search{margin-top:3px;}
+		.band.main.sticky.fixed .respo_menu{margin-top:4px;}
+		
+		.navbar {
+			position: absolute;
+			right:0;
+			top: 8px;
+		}
+		
+		.search_text:focus {width:60px;}
+	
+		
+		.page_title h2 {margin:10px 0}
+		.project-nav {bottom:2px;}
+		.project-nav .nav-icon:last-child{margin-right:5px}
+		
+		figure{margin-bottom: 10px;}
+
+		
+		
+		ul.flex-direction-nav li a{top:31%}
+		ul.flex-direction-nav li a.flex-next{right:9px}
+		ul.flex-direction-nav li a.flex-prev{left:9px}
+		
+		.nivo-caption {opacity:0;line-height:13px;font-size:11px;}
+		.nivoSlider:hover .nivo-caption{opacity:1}
+		
+		/*Slider Shadow off in small devices */
+		.slider_shadow{display:none}
+		
+		.band.twitter{height:110px;}
+		
+		.tweet {height:80px;}
+		
+		
+		.tweet ul.tweet_list li {height: 82px;}
+		
+		.content .box {margin:10px 0;}
+		
+		.clients #nxt {right:10px}
+		.clients #prv {right:26px}
+		
+		footer.footer{padding-bottom:21px;}
+		footer .copyright {font-size:11px;text-align:center;width:100%}
+		.social ul li{float:none;display:inline-block}
+		.social{float:none;text-align:center;}
+		.seven .social{margin-top:-14px;}
+		
+		
+		.flex_caption{display:none}
+
+		article .blog-more{
+			position:static;
+			margin:20px 0 5px;
+			}
+		
+		
+
+		
+		#crumbs {display:none}
+			
+		.portfolio.p1col li{width:420px}
+		.thumb-p1col {width:100%;}
+		.info-p1col {width:99%}
+		
+		.portfolio.p1col li a{float:none;}
+		
+		.portfolioDDDD .info-p1col a.read-more-link{
+			margin: 12px auto 0;
+			width: 100px;
+			position:relative;
+			bottom:auto;
+			right:auto;
+			
+		}
+		article .blog-more.button.right,.portfolio .info-p1col .button.right {text-align:center}
+		
+		.portfolio.p2col li{width:420px}
+		
+		.portfolio.p3col li,.portfolio.p4col li{width:200px}
+		.portfolio.p3col li:nth-child(2n),.portfolio.p4col li:nth-child(2n) { margin-right: 0; }
+		.portfolio.p3col li:nth-child(3n),.portfolio.p4col li:nth-child(3n) { margin-right: 20px; }
+		.portfolio.p3col li:nth-child(6n),.portfolio.p4col li:nth-child(6n) { margin-right: 0; }
+	
+		
+		.thumb-p1col a .overlay:hover span.ov-to {top: 40%;opacity:1;}
+		
+		footer .widget .recent-portfolio ul li,.recent-portfolio ul li {margin: 0 7px 13px;width: 30%;}
+		footer .widget .recent-portfolio ul li .post-thumbnail a.mini-thumb img,a.mini-thumb img  {width:115px;}
+		.recent-portfolio ul li:nth-child(2n) {margin-right:7px;}
+		.widget .recent-portfolio {padding:10px 0}
+		
+		/* SHORTCODES */
+		.pricing-table {padding-top:0;}
+		.pricing-table.col-2 .plan,
+		.pricing-table.col-3 .plan,
+		.pricing-table.col-4 .plan,
+		.pricing-table.col-5 .plan {
+			width:100%;
+			margin-bottom:20px;
+		}
+		.plan.feat {margin-top:20px;}
+		.plan:last-child {margin-bottom:0 !important;}
+		.member {margin-bottom:25px;}
+		.hr_shadow{background: url(../images/shadow420.png) no-repeat center top;}
+		
+		footer .gototop {margin: 20px auto 25px;}
+		
+		article .button.right {text-align:center}
+		
+		.clients-carousel, .portfolio-carousel {margin-bottom:20px;}
+		
+		.tab a {font-size:12px;padding:6px 10px;}
+		
+		div.adbox{margin:20px 0 !important;}
+		
+		.adbox {text-align:center}
+		.adbox .icon_wrap{clear: both;margin-top: 5px;width: 100%;}
+		.adbox .text_wrap{margin: 5px 0;width: 100%;}	
+		.adbox .button{margin: 15px 0 5px;text-align: center;width: 100%;}
+		
+		.comments{margin-bottom:20px;}
+		
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+			
+		article figure {width:auto}
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+	
+			
+		ul.flex-direction-nav li a{display:none}
+		
+		.band.twitter{height:135px;}
+		.tweet {height:112px;}
+		.tweet ul.tweet_list li {height:102px;}
+		
+
+		.roundabout {width:275px;}
+		.roundabout ul{margin-left:105px}
+		.roundabout img{width:70%}
+		
+	
+		.social_icons .icon a {margin:5px 0px;width:19px;}
+		
+		.sub_header .slogan, .sub_header .right_sub_text {font-size:11px}
+		
+		.portfolio.p1col li,
+		.portfolio.p2col li,
+		.portfolio.p3col li,
+		.portfolio.p4col li{width:300px;height: auto !important;}
+		
+		
+		footer .widget .recent-portfolio ul li,.recent-portfolio ul li {margin: 0 7px 13px;width: 45%;}
+		footer .widget .recent-portfolio ul li .post-thumbnail a.mini-thumb img,a.mini-thumb img {width:125px;}
+		footer .widget .recent-cap{height:90%;width:92.5%}
+		
+		/* SHORTCODES */
+		.pricing-table.col-2 .plan,
+		.pricing-table.col-3 .plan,
+		.pricing-table.col-4 .plan,
+		.pricing-table.col-5 .plan {
+			width:300px
+		}
+		.hr_shadow{background: url(../images/shadow300.png) no-repeat center top;}
+		
+		#commentform p label {width:18%}
+		#commentform p input {width:82%}
+		
+	}
+	
+	
+	/* Responsive CSS for Nivo Slider ***********************************/
+	@media only screen and (max-width: 767px) {
+		.nivo-prevNav {left:5px;top:40% !important}
+		.nivo-nextNav {top:40% !important;right:5px !important}
+		}
+	@media only screen and (max-width: 479px) {
+		.nivo-directionNav{display:none}
+		}

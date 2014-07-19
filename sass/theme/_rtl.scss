@@ -1,0 +1,259 @@
+/********************************/
+/* CSS Document For RTL SUPPORT */
+/******* by Tohid Golkar ********/
+/***** www.tohidgolkar.com ******/
+/********************************/
+
+
+body {
+	direction:rtl;
+	font-family: Tahoma, Geneva, sans-serif !important;
+	text-align:right !important;
+	}
+	
+.container .column,
+.container .columns,
+h1.logo,
+.search_field,
+.sub_header .slogan, .sub_header .right_sub_text,
+footer .copyright,
+nav.main ul li,
+.vtabs .tabs, .tabs, .tab, .vtabs .panel,
+.message span.bullets,
+.social-icon,
+.twitter_icon,
+.social ul li,
+ul.filter, .filter li,
+.portfolio li ,
+.info-p1col,
+.widget .tabswrap .panel ul li, .recent ul li,
+.wpcf7 input, .wpcf7 textarea, .wpcf7 select,
+.comment-author .says, #commentform,
+#searchform input,
+.author_info img,
+.blog-sidebar ul li,
+.adbox .text_wrap,
+.adbox .icon_wrap,
+.wpcf7-quiz-label
+	{float:right}
+
+
+.column.alpha, .columns.alpha { margin-right: 0;margin-left: 10px;}
+.column.omega, .columns.omega { margin-left: 0;margin-right: 10px;}
+.alpha .omega {margin:0}
+
+
+.search_button_wrap,
+.social,
+.portfolio-thumb,
+nav.main,
+.top_search,
+.toggle .toggle-title span,
+.adbox .button
+	{float:left}
+
+
+
+.content article h2.post,
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title,
+table,
+.message
+	{text-align:right !important}
+	
+nav.main ul#menu-main-menu li:last-child a{padding-left:0;padding-right:9px}	
+	
+.sub_header .right_sub_text,
+.testimonial-author,
+.social,
+article .button.right
+	{text-align:left}
+	
+
+
+.blog-sidebar ul {
+    list-style-image: url(../images/arrow-rtl.png);
+    margin: 12px 30px 12px 0;
+}
+
+article .blog-more {
+	right: auto;
+    left: 0;
+}
+
+.blog-sidebar ul li:first-child {margin-right:0}
+
+
+.content article hr {
+    margin: 20px 0;
+}
+
+
+.sf-menu ul .sf-sub-indicator {right:auto;left:10px}
+.sf-sub-indicator{background:url(../images/arrows-rtl.png) no-repeat scroll -10px -100px transparent;}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {left:auto;right:10px}
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {left:auto;right:171px}
+
+.top_search{margin:9px 20px 0 0}
+
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  margin:0 0 0 8px;
+}
+
+.sz-xs:before{margin:0 0 0 6px !important}
+.sz-s:before{margin:0 0 0 6px !important}
+.sz-m:before{margin:0 0 0 6px !important;}
+.sz-l:before{margin:0 0 0 9px !important;}
+.sz-xl:before{margin:0 0 0 10px !important;}
+.sz-xxl:before{margin:0 0 0 11px !important;}
+.ibtn.sz-m:before{margin-left: 10px !important;margin-right: -7px !important;}
+.ibtn.sz-s:before{ margin: 0 -5px 0 9px !important;vertical-align: -1px !important;}
+.ibtn.sz-xs:before{margin: 0 -4px 0 9px !important;}
+
+
+.testimonial:after {
+    background: url(../images/testimonials-rtl.png) no-repeat scroll 0 0 transparent;
+    right:auto;
+	left:21px;
+}
+
+.panel {border-radius:5px 0 5px 5px;}
+ul.tabs {list-style:none;margin:0;}
+.vtabs .panel {border-right:solid 1px #ccc;border-left:none;margin:0 -1px 0 0;}
+.vtabs .tab a.selected {border-left:solid 1px #FFF}
+.vtabs .tab a{border-left:solid 1px #ccc;border-right:none;}
+.tab {margin:0 0 0 -1px}
+.tab:first-child a{border-radius:0 5px 0 0;}
+.tab:last-child a {border-radius:5px 0 0 0;}
+
+#crumbs{right:auto;left:10px}
+
+
+.accordion .accordion-title a {background-position:left 0;}
+.accordion .accordion-title.active a {background-position:left -40px;}
+
+
+.styled-table-1 th:last-child,.styled-table-1 td:first-child{border-right:solid 1px #CCC;}
+.styled-table-1 td:last-child{border-right:solid 1px #e5e5e5;}
+.styled-table-2 th:last-child, .styled-table-2 td:last-child{border-right:solid 1px #bbb;}
+.styled-table-3 td:last-child{border-right:solid 1px #999;}
+.styled-table-3 th:last-child{border-right:solid 1px #666;}
+.styled-table-4 th:last-child,
+.styled-table-4 td:first-child,
+.styled-table-5 th:last-child{border-right:solid 1px #CCC;}
+.styled-table-4 td:last-child,
+.styled-table-5 td:last-child{border-right:solid 1px #EEE;}
+
+
+.gfont {direction: ltr !important;text-align: left;}
+
+.message {padding: 10px 17px 10px 40px;}
+.message span.close {right:auto;left:0}
+.message span.bullets {margin:5px 0 0 10px;}
+
+.quote:before {content: "";float: right;margin: 0 0 0 10px;}
+.quote:after {content: "❝";}
+
+.dropcap,.dropcap.dropcap-classic {float: right;margin: 6px 0 0 8px;}
+.dropcap.dropcap-square,.dropcap.dropcap-circle,.dropcap.dropcap-rounded {margin: 6px 0 0 12px;}
+
+.social-icon{margin:0 0 9px 9px}
+
+.tweet{margin:18px 40px 0 0;}
+
+.clients .prv, .portfolio-carousel .prv{left:20px;right:auto}
+.clients .nxt, .portfolio-carousel .nxt{left:36px;right:auto}
+
+footer ul li a{background:url(../images/list-style-rtl.png) no-repeat scroll right center transparent;padding:0 13px 0 0;}
+
+.filter li { margin: 0 0 10px 5px;}
+
+footer h4.title {direction:rtl;text-align:right}
+
+.portfolio li {margin-left:20px;margin-right:0}
+.portfolio .info-p1col a.read-more-link {right:218px;}
+.portfolio.p2col li:nth-child(2n),
+.portfolio.p3col li:nth-child(3n),
+.portfolio.p4col li:nth-child(4n)
+{margin-left:0}
+
+
+.widget .tabswrap .panel ul li .post-thumbnail, .recent ul li .post-thumbnail {float: right;margin-left: 10px;margin-right:0;}
+
+
+.comment-author .fn {float: right;margin: 5px 5px 0;}
+.comment-meta {left: 70px;right:auto}
+#commentform p input, #commentform p textarea {font-family: tahoma;}
+.social-icons {left: 0;right: auto;}
+
+.author_info img{margin:0 0 0 12px;}
+
+#searchform #searchsubmit{margin:0 2% 0 0;float:left;}
+
+.wpcf7 input,.wpcf7 textarea{font-family:tahoma;font-size: 13px;}
+
+.button a, .button a:visited, .button a:focus,
+.portfolio .portfolio-info a.read-more-link, ul.filter li a{
+	padding-top:1px;
+	}
+
+pre {direction:ltr;text-align:left;}
+
+.toggle .toggle-title {
+    padding: 10px 15px 10px 0;
+}
+
+
+.nivo-prevNav {
+    left: 20px !important;
+    right: auto !important;
+}
+
+.widget .tabswrap .panel ul li span.date, .recent ul li span.date {right:auto;left:0}
+
+.content article p.meta span.sz-xs:before {margin: 0 15px 0 5px !important;}
+.content article p.meta span.sz-xs:first-child:before {margin-right: 0!important;}
+
+.adbox .button {margin: 9px 0 0 8px;}
+
+.widget ul.tabs {margin-right:-1px;float:none;}
+
+
+.interio_icl_lang_selector {
+    float: left;
+    margin: 8px 10px 0 0 ;
+}
+
+/* RETINA SUPPORT IN RTL */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+	
+	.blog-sidebar ul{
+		list-style-image: url(../images/arrow-rtl@2x.png);
+		background-size: 5px 10px;
+		}
+	
+	.sf-sub-indicator{
+		background-image:url(../images/arrows-rtl@2x.png);
+		background-size: 20px 110px; 
+		}
+	
+		
+	.testimonial:after {
+		background-image: url(../images/testimonials-rtl@2x.png);
+		background-size: 25px 20px;
+	}
+	
+	footer ul li a{
+		background-image:url(../images/list-style-rtl@2x.png);
+		background-size: 6px 12px; 
+		}
+	
+}
+
+
+ul.tabs,.widget .tabswrap .panel ul, .recent ul {list-style:none;}
+
+

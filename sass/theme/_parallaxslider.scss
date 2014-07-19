@@ -1,0 +1,139 @@
+/* Slider Style */
+.pxs_container{
+	width:100%;
+	height:350px;
+	position:relative;
+	overflow:hidden;
+	-moz-box-shadow:0px 0px 6px rgba(0,0,0,.3);
+	-webkit-box-shadow:0px 0px 6px rgba(0,0,0,.3);
+	box-shadow:0px 0px 6px rgba(0,0,0,.3);
+}
+
+.pxs_bg div{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:350px;
+	background-repeat:repeat;
+	background-position:top left;
+	background-color:transparent;
+}
+
+.pxs_bg .pxs_bg1{
+	background-image:url(../photos/dot1.png);
+}
+.pxs_bg .pxs_bg2{
+	background-image:url(../photos/dot2.png);
+}
+.pxs_bg .pxs_bg3{
+	background-image:url(../photos/dot3.png);
+}
+
+.pxs_slider_wrapper{
+	display:none;
+}
+.pxs_container ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+ul.pxs_slider{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:350px;
+}
+ul.pxs_slider li{
+	height:350px;
+	float:left;
+	position:relative;
+}
+ul.pxs_slider li img{
+	display:block;
+	margin:35px auto 0px auto;
+	-moz-box-shadow:0px 0px 4px rgba(0,0,0,.5);
+	-webkit-box-shadow:0px 0px 4px rgba(0,0,0,.5);
+	box-shadow:0px 0px 4px rgba(0,0,0,.5);
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+ul.pxs_thumbnails{
+	height:35px;
+	position:absolute;
+	top:270px;
+	left:50%;
+
+}
+
+
+ul.pxs_thumbnails li{
+	position:absolute;
+	display:block;
+}
+ul.pxs_thumbnails li img{
+	-moz-box-shadow:1px 1px 4px rgba(0,0,0,.5);
+	-webkit-box-shadow:1px 1px 4px rgba(0,0,0,.5);
+	box-shadow:1px 1px 4px rgba(0,0,0,.5);
+	cursor:pointer;
+	display:block;
+	border-radius:5px;
+	
+}
+ul.pxs_thumbnails li.selected img{
+	opacity:1.0;
+}
+.pxs_navigation span{
+	position:absolute;
+	width:30px;
+	height:30px;
+	-moz-box-shadow:0px 0px 2px #000;
+	-webkit-box-shadow:0px 0px 2px #000;
+	box-shadow:0px 0px 2px #000;
+	top:145px;
+	opacity:0.6;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	cursor:pointer;
+	font-family:fontello;
+	background:#CC0000;
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+	line-height:28px;
+}
+.pxs_navigation span:hover{
+	opacity:0.9;
+}
+
+.pxs_navigation span.pxs_prev{
+	left:30px;
+}
+.pxs_navigation span.pxs_next{
+	right:30px;
+}
+.pxs_navigation span.pxs_prev:before{
+	content: "\e84f";
+	left:30px;
+}
+.pxs_navigation span.pxs_next:before{
+	content: "\e850";
+	right:30px;
+}
+.pxs_loading{
+	color:#fff;
+	font-size:20px;
+	padding:15px 15px 15px 50px;
+	position:absolute;
+	background:#333 url(../photos/p/ajax-loader.gif) no-repeat 10px 50%;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	opacity:0.7;
+	width:180px;
+	position:absolute;
+	top:150px;
+	left:50%;
+	margin-left:-90px;
+}
