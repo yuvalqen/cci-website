@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[CCI AG - Corporate Competitive Intelligence]]></title>
+  <link href="http://cc-int.eu//github/atom.xml" rel="self"/>
+  <link href="http://cc-int.eu//github/"/>
+  <updated>2014-07-19T14:01:11+03:00</updated>
+  <id>http://cc-int.eu//github/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
