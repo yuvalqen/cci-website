@@ -36,7 +36,7 @@
 }
  
 .header_pane {
-	background-image: url('/images/header_pane.jpg');
+	background-image: url('../images/header_pane.jpg');
 	height: 700px;
 	overflow: visible;
 
@@ -61,7 +61,7 @@
 }
 
 .intro_pane {
-	background-image: url('/images/intro_pane.jpg');
+	background-image: url('../images/intro_pane.jpg');
 	height: 579px;
 
 	.intro_title {
@@ -88,7 +88,7 @@
 }
 
 .about_us_pane {
-	background-image: url('/images/about_us_pane.jpg');
+	background-image: url('../images/about_us_pane.jpg');
 	height: 653px;
 
 	.about_is_lines {
@@ -169,7 +169,7 @@
 }
 
 .how_does_it_work_pane {
-	background-image: url('/images/how_does_it_work_pane.jpg');
+	background-image: url('../images/how_does_it_work_pane.jpg');
 	background-size: 174px;
 	height: 663px;
 
@@ -192,7 +192,7 @@
 	}
 
 	.pane_content {
-		background-image: url('/images/contact_us_pane.jpg');
+		background-image: url('../images/contact_us_pane.jpg');
 		height: 100%;
 	}	
 	.social_flags_container {
@@ -202,7 +202,7 @@
 }
 
 .thank_you_pane {
-	background-image: url('/images/thank_you_pane.jpg');
+	background-image: url('../images/thank_you_pane.jpg');
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -281,15 +281,16 @@
   	float: right;
 
 		  #ss-submit {
-		  	background-image: url('/images/launch_button.png');
+		  	background-image: url('../images/launch_button.png');
 		  	background-color: rgba(0, 0, 0, 0);
 		  	text-indent:-9999px;
 		  	width: 89px;
 		  	height: 29px;
+		  	
 		  }
 
 		  #ss-submit:hover { 
-		  	background-image: url('/images/launch_button_hover.png');
+		  	background-image: url('../images/launch_button_hover.png');
 		  	background-size: 100% 100%;	  
 		  }
   }

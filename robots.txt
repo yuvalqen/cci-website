@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://studio10c.com/sitemap.xml 
+Sitemap: http://cc-int.eu/sitemap.xml 
