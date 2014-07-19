@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[CCI AG - Corporate Competitive Intelligence]]></title>
-  <link href="http://cc-int.eu/atom.xml" rel="self"/>
-  <link href="http://cc-int.eu/"/>
-  <updated>2014-07-19T13:31:14+03:00</updated>
-  <id>http://cc-int.eu/</id>
+  <link href="http://cc-int.eu//github/atom.xml" rel="self"/>
+  <link href="http://cc-int.eu//github/"/>
+  <updated>2014-07-19T13:41:21+03:00</updated>
+  <id>http://cc-int.eu//github/</id>
   <author>
     <name><![CDATA[]]></name>
     
