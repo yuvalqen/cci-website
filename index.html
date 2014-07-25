@@ -19,13 +19,13 @@
 
   
   <link rel="canonical" href="http://yuvalqen.com/cci-website">
-  <link href="/cci-website/favicon.png" rel="icon">
-  <link href="/cci-website/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="CCI AG - Corporate Competitive Intelligence" type="application/atom+xml">
-  <script src="/cci-website/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/cci-website/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
     <!-- Basic Page Needs
     ================================================== --> 
     
@@ -55,22 +55,22 @@
     
     <!-- Scripts
   ================================================== -->
-    <script type="text/javascript" src="/cci-website/javascripts/jquery.1.8.3.js"></script>
-    <script type="text/javascript" src="/cci-website/javascripts/jquery.easing.js?1.3"></script>
-    <script type="text/javascript" src="/cci-website/javascripts/portfolio.js?ver=1.0"></script>
-  <script type="text/javascript" src="/cci-website/javascripts/retina.js?ver=1.0"></script>
-  <script type="text/javascript" src="/cci-website/javascripts/fitvids.js?ver=1.0"></script>
-  <script type="text/javascript" src="/cci-website/javascripts/jquery.tweet.js?ver=1.0"></script>
-    <script type="text/javascript" src="/cci-website/javascripts/jquery.carouFredSel-6.1.0-packed.js?ver=6.1.0"></script>
-    <script type="text/javascript" src="/cci-website/javascripts/jquery.BlackAndWhite.min.js?ver=0.2.4"></script>
-    <script type="text/javascript" src='/cci-website/javascripts/plugins.js?ver=1.0'></script>
-    <script type="text/javascript" src='/cci-website/javascripts/tooltips.js?ver=1.0'></script>
-    <script type="text/javascript" src='/cci-website/javascripts/shortcodes.js?ver=1.0'></script>
-    <script type="text/javascript" src='/cci-website/javascripts/jquery.prettyPhoto.js?ver=3.1.5'></script>
-    <script type="text/javascript" src='/cci-website/javascripts/custom.js?ver=1.1'></script>
+    <script type="text/javascript" src="/javascripts/jquery.1.8.3.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.easing.js?1.3"></script>
+    <script type="text/javascript" src="/javascripts/portfolio.js?ver=1.0"></script>
+  <script type="text/javascript" src="/javascripts/retina.js?ver=1.0"></script>
+  <script type="text/javascript" src="/javascripts/fitvids.js?ver=1.0"></script>
+  <script type="text/javascript" src="/javascripts/jquery.tweet.js?ver=1.0"></script>
+    <script type="text/javascript" src="/javascripts/jquery.carouFredSel-6.1.0-packed.js?ver=6.1.0"></script>
+    <script type="text/javascript" src="/javascripts/jquery.BlackAndWhite.min.js?ver=0.2.4"></script>
+    <script type="text/javascript" src='/javascripts/plugins.js?ver=1.0'></script>
+    <script type="text/javascript" src='/javascripts/tooltips.js?ver=1.0'></script>
+    <script type="text/javascript" src='/javascripts/shortcodes.js?ver=1.0'></script>
+    <script type="text/javascript" src='/javascripts/jquery.prettyPhoto.js?ver=3.1.5'></script>
+    <script type="text/javascript" src='/javascripts/custom.js?ver=1.1'></script>
     
     <!-- FlexSlider -->
-    <script type="text/javascript" src='/cci-website/javascripts/jquery.flexslider-min.js?ver=1'></script>
+    <script type="text/javascript" src='/javascripts/jquery.flexslider-min.js?ver=1'></script>
     <script type="text/javascript">
     jQuery(document).ready(function($) {
       $('.flexslider').flexslider({
@@ -213,7 +213,7 @@
   <!-- jQuery Form Plugin -->
   <script src="http://malsup.github.com/jquery.form.js"></script>
   <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script> 
-  <script src="/cci-website/javascripts/google_form.js"></script>
+  <script src="/javascripts/google_form.js"></script>
 
 
   
@@ -234,29 +234,17 @@
   </head>
 
 <body>
-  <div id="main">
-    <div id="content">
-      <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8"> <![endif]-->
-  <body>
+	<!-- Wrap (boxed or wide)-->
+	<div id="wrap" class="wrap wide">
+	          <div class="band top_border" > </div>
 
-    
-    
-    
-
-  <!-- Wrap (boxed or wide)-->
-  <div id="wrap" class="wrap wide">
-    
-        <div class="band top_border" > </div>
 
         <!-- Top Band - If you dont want to use Sticky menu please remove sticky class below -->
         <div class="band main sticky" >
             
             <!-- HEADER -->
             <div class="container header">
-              
+            	
                 
                 
                 <div class="three columns">
@@ -265,14 +253,14 @@
             
             
             
-              <div class="thirteen columns navbar" >
+            	<div class="thirteen columns navbar" >
   
  
                 
                  <!-- Search Button -->
 
-          <div class="top_search">
-  
+					<div class="top_search">
+	
                         <form id="customsearch" action="#" method="get" role="search">
                          
                             <div class="search_field">
@@ -285,7 +273,7 @@
                             
                         </form>
         
-          </div>
+					</div>
                 
                 <!-- end Search Button -->
                 
@@ -295,139 +283,27 @@
                 <!-- Navigation Menu -->
                 <nav class="main">
                     <ul id="menu-main-menu" class="sf-menu">
-                      <li class="current-menu-parent current-menu-item"><a href="home1-flexslider.html">Home</a>
+                        <li><a href="about.html">About</a></li>
+                    	<li><a href="services.html">Services</a>
                             <ul class="sub-menu">
-                              <li class="current-menu-item"><a href="home1-flexslider.html">Home 1 + FlexSlider</a></li>
-                                <li><a href="home2-nivoslider.html">Home 2 + Nivo Slider</a></li>
-                                <li><a href="home3-roundabout.html">Home 3 + Round About</a></li>
-                                <li><a href="home4-image-title.html">Home 4 + Image Title</a></li>
-                                <li><a href="home5-no-title.html">Home 5 + No Title</a></li>
+                                <li><a href="services.html#litigation">Litigation</a></li>
+                                <li><a href="services.html#due-diligence">Due Diligence</a></li>
+                                <li><a href="services.html#competitive-intelligence">Competitive Intelligence</a></li>
+                                <li><a href="services.html#cyber-intelligence">Cyber Intelligence</a></li>
                             </ul>
-                      </li>
-                    <li class="current-menu-item"><a href="#">Sliders</a>
-                        <ul class="sub-menu">
-                          <li class="current-menu-item"><a href="home1-flexslider.html">FlexSlider</a></li>
-                            <li><a href="home2-nivoslider.html">Nivo Slider</a></li>
-                            <li><a href="home3-roundabout.html">Round About Slider</a></li>
-                            <li>
-                            <a href="#">Lite Accordion Slider</a>
-                              <ul>
-                                  <li><a href="lite-accordion-slider.html">Basic</a></li>
-                                    <li><a href="lite-accordion-slider-light.html">Light</a></li>
-                                    <li><a href="lite-accordion-slider-dark.html">Dark</a></li>
-                                    <li><a href="lite-accordion-slider-stitch.html">Stitch</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="parallax-slider.html">Parallax Slider</a></li>
-                            <li><a href="kwick-slider.html">Kwick Slider</a></li>
-                            <li><a href="3d-slice-slider.html">3D Slice Slider</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Shortcodes</a>
-                    <ul class="sub-menu">
-                        <li><a href="#">Typography</a>
-                        <ul class="sub-menu">
-                            <li><a href="shortcodes/columns.html"><span class="icon-sweden sz-xs" ></span>Columns</a></li>
-                            <li><a href="shortcodes/dropcap.html"><span class="icon-info-circled sz-xs" ></span>Dropcap</a></li>
-                            <li><a href="shortcodes/highlight.html"><span class="icon-pencil sz-xs" ></span>Highlights</a></li>
-                            <li><a href="shortcodes/hr-lines-divider.html"><span class="icon-dot-3 sz-xs" ></span>HR Lines (Dividers)</a></li>
-                            <li><a href="shortcodes/list-style.html"><span class="icon-list-bullet sz-xs" ></span>List Style</a></li>
-                        </ul>
-                    </li>
-                        <li><a href="#">Elements</a>
-                        <ul class="sub-menu">
-                            <li><a href="shortcodes/buttons.html"><span class="icon-up-hand sz-xs" ></span>Buttons</a></li>
-                            <li><a href="shortcodes/tables.html"><span class="icon-th sz-xs" ></span>Tables</a></li>
-                            <li><a href="shortcodes/quotes.html"><span class="icon-quote-left-1 sz-xs" ></span>Quotes</a></li>
-                            <li><a href="shortcodes/social-icons.html"><span class="icon-facebook-circled sz-xs"   ></span>Social Icons</a></li>
-                            <li><a href="shortcodes/tooltip.html"><span class="icon-comment sz-xs" ></span>Tooltip</a></li>
-                        </ul>
-                    </li>
-                        <li><a href="#">Media</a>
-                        <ul class="sub-menu">
-                            <li><a href="shortcodes/videos.html"><span class="icon-video sz-xs"  ></span>Videos</a></li>
-                            <li><a href="shortcodes/google-fonts.html"><span class="icon-language sz-xs"  ></span>Google Fonts</a></li>
-                            <li><a href="shortcodes/google-maps.html"><span class="icon-location-1 sz-xs"    ></span>Google Maps</a></li>
-                        </ul>
-                    </li>
-                        <li><a href="#">Boxes</a>
-                        <ul class="sub-menu">
-                            <li><a href="shortcodes/ad-box.html"><span class="icon-megaphone sz-xs"  ></span>Ad Box</a></li>
-                            <li><a href="shortcodes/featured-box.html"><span class="icon-star sz-xs"  ></span>Featured Box</a></li>
-                            <li><a href="shortcodes/message-box.html"><span class="icon-attention-circle sz-xs"  ></span>Message Box</a></li>
-                            <li><a href="shortcodes/pricing-tables.html"><span class="icon-money sz-xs"  ></span>Pricing Tables</a></li>
-                            <li><a href="shortcodes/testimonial.html"><span class="icon-comment sz-xs"  ></span>Testimonial</a></li>
-                        </ul>
-                    </li>
-                        <li><a href="#">Active Boxes</a>
-                        <ul class="sub-menu">
-                            <li><a href="shortcodes/accordion.html"><span class="icon-tasks sz-xs"  ></span>Accordion</a></li>
-                            <li><a href="shortcodes/clients-carousel.html"><span class="icon-right-open-1 sz-xs"  ></span>Clients Carousel</a></li>
-                            <li><a href="shortcodes/portfolio-carousel.html"><span class="icon-briefcase-1 sz-xs"  ></span>Portfolio Carousel</a></li>
-                            <li><a href="shortcodes/members-skills.html"><span class="icon-users-2 sz-xs"  ></span>Members &#038; Skills</a></li>
-                            <li><a href="shortcodes/tabs.html"><span class="icon-th-list sz-xs" ></span>Tabs</a></li>
-                            <li><a href="shortcodes/toggle.html"><span class="icon-down-open-1 sz-xs" ></span>Toggle</a></li>
-                        </ul>
-                    </li>
-                    </ul>
-                    </li>
-                    <li><a href="">Features</a>
-                    <ul class="sub-menu">
-
-                        <li><a href="sidebar-widgets.html">Sidebar Widgets</a></li>
-                        <li><a href="#">RTL Languages Support</a></li>
-                        <li><a href="over-450-icons.html"><span class="icon-rocket sz-s"  ></span>450+ Icons</a></li>
-                        <li><a href="#">3rd Level Menu</a>
-                        <ul class="sub-menu">
-                            <li><a href="#">Menu Item</a></li>
-                            <li><a href="#">4th Level Menu</a>
+                        </li>
+                        <li><a href="sectors.html">Sectors</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Menu Item</a></li>
-                                <li><a href="#"><span class="icon-thumbs-up sz-xxl"></span>Big Icon</a></li>
+                                <li><a href="sectors.html#banking">Banking &amp; Finance</a></li>
+                                <li><a href="sectors.html#insurance">Insurance</a></li>
+                                <li><a href="sectors.html#energy">Energy</a></li>
+                                <li><a href="sectors.html#law-firms">Law Firms</a></li>
+                                <li><a href="sectors.html#multinational-corporations">Multinational Corporations</a></li>
+                                <li><a href="sectors.html#property-investors">Property Investors</a></li>
                             </ul>
-                    </li>
-                            <li><a href="#">Menu Item</a></li>
-                        </ul>
-                    </li>
-                        <li><a href="#"><span class="icon-basket-1 sz-s"></span>Buy This Theme</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="#">Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="faq.html"><span class="icon-help-circled sz-xs"  ></span>F.A.Q</a></li>
-                        <li><a href="contact-2.html"><span class="icon-phone-squared sz-xs"  ></span>Contact 2</a></li>
-                        <li><a href="#"><span class="icon-th sz-xs" ></span>Page Layouts</a>
-                        <ul class="sub-menu">
-                            <li><a href="full-width.html">Full Width</a></li>
-                            <li><a href="page-left-sidebar.html">Page Left Sidebar</a></li>
-                            <li><a href="page-right-sidebar.html">Page Right Sidebar</a></li>
-                            <li><a href="no-title.html">No Title Page</a></li>
-                        </ul>
-                    </li>
-                        <li><a href="404.html">404</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="#">Portfolio</a>
-                    <ul class="sub-menu">
-                        <li><a href="portfolio-1-column.html">Portfolio 1 column</a></li>
-                        <li><a href="portfolio-2-columns.html">Portfolio 2 columns</a></li>
-                        <li><a href="portfolio-3-columns.html">Portfolio 3 columns</a></li>
-                        <li><a href="portfolio-4-columns.html">Portfolio 4 columns</a></li>
-                        <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                        <li><a href="portfolio-single-left-sidebar.html">Single Left Sidebar</a></li>
-                        <li><a href="portfolio-single-wide.html">Portfolio Single (Wide)</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a>
-                    <ul class="sub-menu">
-                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-            <li><a href="blog-single.html">Blog Single</a></li>
-            <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
-                    </ul>
-                    </li>
+                        </li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="knowledge-hub.html">Knowledge Hub</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav> 
@@ -436,7 +312,7 @@
                 
                 
                
-          </div><!--end thirteen --> 
+       		</div><!--end thirteen --> 
        
        
             </div><!--end container -->   
@@ -445,739 +321,498 @@
         
         
         </div><!-- End of Main Band-->
-            
-            
-            
-        <!-- Slogan and Title -->
-        <div class="band title" >
-            
-            <!-- Sub_Header -->
-            <div class="container sub_header">
-              <div class="sixteen columns">
-                
-                    <div class="slogan">
-                        Premium Responsive Theme
-                    </div>
-                      
 
-                    <div class="right_sub_text">
-                        Call Us: +1 (888) 345 6789
-                    </div>
-    
-                    
-                </div>
-                
-                
-            </div><!-- End Sub_Header -->
+
+      <!-- Slogan and Title -->
+<div class="band title" >
+
+    <!-- Sub_Header -->
+    <div class="container sub_header">
+        <div class="sixteen columns">
+            <div class="slogan">
+                Premium Responsive Theme
+            </div>
+            <div class="right_sub_text">
+                Call Us: +1 (888) 345 6789
+            </div>
+        </div>
+    </div><!-- End Sub_Header -->
+</div><!-- end band-->     
+<!-- End Top Band -->  
+<!-- CONTENT -->   
+<div class="band content" >
+    <div class="container">
+        <div class="sixteen columns texts-wrap">
+            <!-- ========================================== --> 
+            <!-- Start Content ============================ -->
+            <!-- ========================================== -->   
+            <!-- Gap -->
+            <div class="gap gap10 clearfix"></div>
+            <!-- 1/3 column - First -->
             
             
             
+            
+            
+                        <div class="four columns alpha">
+                <div class="adbox style5 center">
+                  <div class="inside clearfix">
+                      <div class="icon_wrap"><span class="ibox icon-suitcase sz-xl"></span></div>
+                      <div class="text_wrap">
+                          <h2 class="servicebox_title" style="min-height: 3em;">Litigation</h2>
+                          <p>Two sentence excerpt</p>
+                      </div>
+                      <div class="button right small">
+                          <a href="services.html#litigation"><span class="ibtn icon-down-dir-1 sz-xs"></span>Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
 
             
             
-            <!-- SLIDER -->   
-            <div class="container ">
-                <div class="sixteen columns">
-                  
+            
+            
+            
+                        <div class="four columns ">
+                <div class="adbox style5 center">
+                  <div class="inside clearfix">
+                      <div class="icon_wrap"><span class="ibox icon-zoom-in sz-xl"></span></div>
+                      <div class="text_wrap">
+                          <h2 class="servicebox_title" style="min-height: 3em;">Due Diligence</h2>
+                          <p>Two sentence excerpt</p>
+                      </div>
+                      <div class="button right small">
+                          <a href="services.html#due-diligence"><span class="ibtn icon-down-dir-1 sz-xs"></span>Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+            
+            
+            
+            
+            
+                        <div class="four columns ">
+                <div class="adbox style5 center">
+                  <div class="inside clearfix">
+                      <div class="icon_wrap"><span class="ibox icon-chart-line sz-xl"></span></div>
+                      <div class="text_wrap">
+                          <h2 class="servicebox_title" style="min-height: 3em;">Competitive Intelligence</h2>
+                          <p>Two sentence excerpt</p>
+                      </div>
+                      <div class="button right small">
+                          <a href="services.html#competitive-intelligence"><span class="ibtn icon-down-dir-1 sz-xs"></span>Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+            
+            
+            
+            
+            
+                        <div class="four columns omega">
+                <div class="adbox style5 center">
+                  <div class="inside clearfix">
+                      <div class="icon_wrap"><span class="ibox icon-signal sz-xl"></span></div>
+                      <div class="text_wrap">
+                          <h2 class="servicebox_title" style="min-height: 3em;">Cyber Intelligence</h2>
+                          <p>Two sentence excerpt</p>
+                      </div>
+                      <div class="button right small">
+                          <a href="services.html#cyber-intelligence"><span class="ibtn icon-down-dir-1 sz-xs"></span>Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+        <!-- Gap -->
+        <div class="gap gap30 clearfix"></div>
+        <!-- Portfolio Carousel -->
+        <div class="clearfix">
+            <div id="portfolio-carousel" class="portfolio-carousel">
+                <h3 class="title">Sectors</h3>
+                <div class="nxt" id="nxt_portfolio_carousel"> &#xe850;</div>
+                <div class="prv" id="prv_portfolio_carousel"> &#xe84f;</div>
+                <ul id="portfolio_carousel" class="portfolio pc_carousel p4col">
+
                     
-                    <div class="flexslider">
-                        
-                        <ul class="slides">
-                            
-              <li>
-                            
-                                <img src="photos/slide01.jpg" alt="" />
-                                
-                                <div class="flex_caption full_caption">
-                                  <h4>Full Caption</h4>
-                                    <div class="caption_text">
-                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </div>
-                                </div>
-                            </li>
-                            
+                    
                             <li>
-                              <img src="photos/slide06.jpg" alt="" />
-                            </li>
-                        
-                        
-                          <li>
-                              <img src="photos/slide03.jpg" alt="" />
-                                
-                                <div class="flex_caption top_caption">
-                                  <h4>Top Caption</h4>
-                                    <div class="caption_text">
-                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                      
-                                    </div>
-                                </div>
-                                
-                            </li>
-                            
-                            <li>
-                               
-                                <img src="photos/slide04.jpg" alt="" />
+                <div class="portfolio-thumb thumb-p4col">
+                    <a class="zoom" title="Banking" href="sectors.html#banking">
+                      <img alt="" src="photos/3-300x200.jpg">
+                      <div class="overlay"><span class="ov-to"></span></div>
+                  </a>
+              </div>
+              <div class="portfolio-info info-p4col">
+                <a class="portfolio-title" title="Banking" href="sectors.html#banking">
+                    <h3 class="title">Banking</h3>
+                </a>
+                <div class="portfolio-types">
+                    Business, Interior Design, Photography
+                </div>
+            </div>
+        </li>
 
-                                <div class="flex_caption bottom_caption">
-                                  <h4>Bottom Caption</h4>
-                                    <div class="caption_text">
-                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                      
-                                    </div>
-                                </div>
-                                
-                            </li>
-                            
-                            <li>
-        
-                                <img src="photos/slide05.jpg" alt="" />
-                                
-                                <div class="flex_caption center_caption">
-                                  <h4>Center Caption</h4>
-                                    <div class="caption_text">
-                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                      
-                                    </div>
-                                </div>
-                                
-                            </li>
- 
-                        </ul>
-
-                    </div><!-- End Flexslider -->
-                    
-                    
-                    
-                    
-                    <!-- Slider Shadow -->
-                    <div class="slider_shadow shadow1">
-                      <img src="images/slider_shadow1.png" alt="shadow1" />
-                    </div>
-                    
-                    <!-- Alternate Shadow Styles ===========================
-                    <div class="slider_shadow shadow2">
-                      <img src="images/slider_shadow2.png" alt="shadow2" />
-                    </div>
-                    
-                    <div class="slider_shadow shadow3">
-                      <img src="images/slider_shadow3.png" alt="shadow3" />
-                    </div>
-                    
-                    <div class="slider_shadow shadow4">
-                      <img src="images/slider_shadow4.png" alt="shadow4" />
-                    </div>
-                    
-                    <div class="slider_shadow shadow5">
-                      <img src="images/slider_shadow5.png" alt="shadow5" />
-                    </div>
-                    
-                    <div class="slider_shadow shadow6">
-                      <img src="images/slider_shadow6.png" alt="shadow6" />
-                    </div>
-                    ===================================================== &#8211;>
-                    
-                    <!-- End Slider Shadow -->
-                    
-                    
-                    
-                </div> 
-            </div><!-- container -->
-            <!-- End SLIDER --> 
-            
-            
-            
-            
-            
-          
-             </div><!-- end band-->     
-            <!-- End Top Band -->  
-             
-            
-            <!-- CONTENT -->   
-            <div class="band content" >
-                
-                <div class="container">
-            
-                    <div class="sixteen columns texts-wrap">
-
-                             
-                             
-                        <!-- ========================================== --> 
-                        <!-- Start Content ============================ -->
-                        <!-- ========================================== -->   
-                        
-                        
-                   
-                <!-- Gap -->
-                        <div class="gap gap10 clearfix"></div>
-                        
-                        
-                        <!-- 1/3 column - First -->
-                        <div class="one-third column alpha">
-                          
-                            <div class="adbox style5 center">
-                              <div class="inside clearfix">
-                                  <div class="icon_wrap"><span class="ibox icon-home-1 sz-xl"></span></div>
-                                    <div class="text_wrap">
-                                      <h2 class="adbox_title">5 Homepage Layouts</h2>
-                                      <p>Responsive&nbsp; Premium WordPress Theme</p>
-                                  </div>
-                                  <div class="button right small">
-                                      <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-down-dir-1 sz-xs"></span>Get It</a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-                        <!-- 1/3 column - Middle -->
-                        <div class="one-third column">
-                        
-                          <div class="adbox style5 center">
-                              <div class="inside clearfix">
-                                  <div class="icon_wrap"><span class="ibox icon-globe-alt sz-xl"></span></div>
-                                    <div class="text_wrap">
-                                      <h2 class="adbox_title">Global Design</h2>
-                                        <p>Responsive Premium WordPress Theme</p>
-                                    </div>
-                                    <div class="button right small">
-                                      <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-basket-1 sz-xs"></span>Buy This</a>
-                                    </div>
-                               </div>
-                           </div>
-                        </div>
-                        
-                        
-                        <!-- 1/3 column - Last -->
-                        <div class="one-third column omega">
-                        
-                          <div class="adbox style5 center">
-                                <div class="inside clearfix">
-                                    <div class="icon_wrap"><span class="ibox icon-rocket sz-xl"></span></div>
-                                    <div class="text_wrap">
-                                        <h2 class="adbox_title">Ready to Launch</h2>
-                                        <p>Responsive Premium WordPress Theme</p>
-                                    </div>
-                                    <div class="button right small">
-                                        <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-export sz-xs"></span>Launch It</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-         
-         
-         
-         
-         
-                        <!-- Gap -->
-                        <div class="gap gap30 clearfix"></div>
-
-
-  
-                  <!-- Portfolio Carousel -->
-                        <div class="clearfix">
-                            <div id="portfolio-carousel" class="portfolio-carousel">
-                                
-                                <h3 class="title">Latest Works</h3>
-                                
-                                <div class="nxt" id="nxt_portfolio_carousel"> &#xe850;</div>
-                                <div class="prv" id="prv_portfolio_carousel"> &#xe84f;</div>
-                                
-                    
-                                <ul id="portfolio_carousel" class="portfolio pc_carousel p4col">
-             
-                                    <li>
-                                        <div class="portfolio-thumb thumb-p4col">
-                                            <a title="Lorem Ipsum" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="photos/1-640.jpg">
-                                              <img alt="" src="photos/1-300x200.jpg">
-                                                <div class="overlay"><span class="ov-lb"></span></div>
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="portfolio-info info-p4col">
-                                            
-                                            <a class="portfolio-title" title="Lorem Ipsum" href="portfolio-single.html">
-                                                <h3 class="title">Lorem Ipsum</h3>
-                                            </a>
-                                            
-                                            <div class="portfolio-types">
-                                                Nature, Photography
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-             
-                                    <li>
-                                        <div class="portfolio-thumb thumb-p4col">
-                                            <a title="Wood" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="photos/2-640.jpg">
-                                              <img alt="" src="photos/2-300x200.jpg">
-                                                <div class="overlay"><span class="ov-lb"></span></div>
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="portfolio-info info-p4col">
-                                            <a class="portfolio-title" title="Wood" href="portfolio-single.html">
-                                                <h3 class="title">Wood</h3>
-                                            </a>
-                                            <div class="portfolio-types">
-                                                Interior Design, Photography
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-
-                                    <li>
-                                        <div class="portfolio-thumb thumb-p4col">
-                                            <a class="zoom" title="Business Interior" href="portfolio-single.html">
-                                              <img alt="" src="photos/3-300x200.jpg">
-                                                <div class="overlay"><span class="ov-to"></span></div>
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="portfolio-info info-p4col">
-                                            <a class="portfolio-title" title="Business Interior" href="portfolio-single.html">
-                                                <h3 class="title">Business Interior</h3>
-                                            </a>
-                                            <div class="portfolio-types">
-                                                Business, Interior Design, Photography
-                                            </div>
- 
-                                        </div>
-                                    </li>
-                                    
-          
-                                    <li>
-                                        <div class="portfolio-thumb thumb-p4col">
-                                            <a class="zoom" title="Lorem Eagle" href="portfolio-single.html">
-                                              <img alt="" src="photos/4-300x200.jpg">
-                                                <div class="overlay"><span class=""></span></div>
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="portfolio-info info-p4col">
-                                            <a class="portfolio-title" title="Lorem Eagle" href="portfolio-single.html">
-                                                <h3 class="title">Lorem Eagle</h3>
-                                            </a>
-                                            <div class="portfolio-types">
-                                                Animal, Nature, Photography
-                                            </div>
-
-                                        </div>
-                                    </li>
-                                    
-                                
-                                    <li>
-                                        <div class="portfolio-thumb thumb-p4col">
-                                            <a title="Modeling" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="photos/5-300x200.jpg">
-                                            <img alt="" src="photos/5-300x200.jpg">
-                                            <div class="overlay"><span class="ov-lb"></span></div>
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="portfolio-info info-p4col">
-                                            <a class="portfolio-title" title="Modeling" href="portfolio-single.html">
-                                                <h3 class="title">Modeling</h3>
-                                            </a>
-                                            <div class="portfolio-types">
-                                                Photography
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-            
-                                    <li>
-                                        <div class="portfolio-thumb thumb-p4col">
-                                            <a title="YouTube Video" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="http://www.youtube.com/watch?v=qANZrq7UbjE">
-                                              <img alt="" src="photos/6-300x200.jpg">
-                                                <div class="overlay"><span class="ov-vd"></span></div>
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="portfolio-info info-p4col">
-                                            <a class="portfolio-title" title="YouTube Video" href="portfolio-single-youtube.html">
-                                                <h3 class="title">YouTube Video</h3>
-                                            </a>
-                                            <div class="portfolio-types">
-                                                Animal, Video
-                                            </div>
-      
-                                        </div>
-                                    </li>
-                                    
-
-                                    <li>
-                                        <div class="portfolio-thumb thumb-p4col">
-                                            <a class="zoom" target="_blank" title="Golgraphic.com" href="http://www.golgraphic.com">
-                                              <img alt="" src="photos/7-300x200.jpg">
-                                                <div class="overlay"><span class="ov-ol"></span></div>
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="portfolio-info info-p4col">
-                                            <a class="portfolio-title" title="Golgraphic.com" href="portfolio-single.html">
-                                                <h3 class="title">Golgraphic.com</h3>
-                                            </a>
-                                            <div class="portfolio-types">
-                                                Business, Web Design
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                                
-                                </ul>
-                            </div>
-                     </div>
-                     <!-- End portfolio Carousel -->
-     
-     
-     
-             <!-- Gap -->
-           <div class="gap gap40 clearfix"></div>
-                     
-                     
-                    <!-- 1/3 -->  
-                    <div class="one-third column alpha">
-                        <div class="gfont gfont_custom_1 clearfix">IT’S AMAZING THEME EVER SEEN</div>
-                    </div>
-                    
-                    
-                    
-                    <!-- 2/3 -->
-                    <div class="two-thirds column omega">
-                      <div class="tabswrap vtabs clearfix">
-                            <ul class="tabs">
-                              <li class="tab"><a href="#panel32421"><span class="ibtn icon-comment sz-s"></span>Step 1</a></li>
-                              <li class="tab"><a href="#panel32422"><span class="ibtn icon-play-1 sz-s"></span>Step 2 (Video)</a></li>
-                              <li class="tab"><a href="#panel32423"><span class="ibtn icon-thumbs-up sz-s"></span>Step 3</a></li>
-                            </ul>
-                          
-                            <div id="panel32421" class="panel">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do&nbsp;<span title="Tooltip Text" class="tooltips top"><strong>Tooltip</strong></span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        </div>
-                    
-                        <div id="panel32422" class="panel">
-                          <div class="video-embed">
-                                  <iframe width="560" height="315" class="iframe" src="http://player.vimeo.com/video/62371769?autoplay=&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
-                                </div>
-                        </div>
-                            
-                        <div id="panel32423" class="panel">
-                          <p>It’s Done !</p>
-                          <div class="gap gap10 clearfix"></div>
-                          
-                                <!-- Message Box -->
-                                <div class="message error">
-                                  <span class="bullets b-error"></span>
-                              It’s an Error Message
-                            <span class="close c-error"></span>
-                                </div>
-                                
-                                
-                          <div class="message success">
-                                  <span class="bullets b-success"></span>
-                              Your Success Message here!
-                            <span class="close c-success"></span>
-                                </div>
-                                
-                                
-                          <div class="message info">
-                                  <span class="bullets b-info"></span>
-                              It’s an info Message
-                            <span class="close c-info"></span>
-                                </div>
-                                
-                        </div>
+                    <li>
+                        <div class="portfolio-thumb thumb-p4col">
+                            <a title="Lorem Ipsum" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="photos/1-640.jpg">
+                              <img alt="" src="photos/1-300x200.jpg">
+                              <div class="overlay"><span class="ov-lb"></span></div>
+                          </a>
+                      </div>
+                      <div class="portfolio-info info-p4col">
+                        <a class="portfolio-title" title="Lorem Ipsum" href="portfolio-single.html">
+                            <h3 class="title">Lorem Ipsum</h3>
+                        </a>
+                        <div class="portfolio-types">
+                            Nature, Photography
                         </div>
                     </div>
-                    
-                    <div class="clear"></div>
-                    
-                    
-                    <!-- Gap -->
-                    <div class="gap gap40 clearfix"></div>
-
-
-  
-
-                
-                    <!-- Clients Carousel -->       
-                    <div class="clearfix">
-                        <div id="clients-carousel" class="clients-carousel clients">
-                            
-                            <h3 class="title">Our Clients</h3>
-                            
-                            <div class="nxt" id="nxt_clients_carousel"> &#xe850;</div>
-                            <div class="prv" id="prv_clients_carousel"> &#xe84f;</div>
-                            
-                
-                            <ul class="cc_carousel" id="clients_carousel">
-                            
-                                 <li>
-                                  <a title="orlip.com" class="bwWrapper" href="http://www.orlip.com" target="_blank">
-                          <img alt="client06" src="photos/client06.png">
-                                    </a>
-                                 </li>
-                                 
-                                 
-                                 <li>
-                                  <a title="boolga.com" class="bwWrapper" href="http://www.boolga.com" target="_blank">
-                          <img alt="client07" src="photos/client07.png">
-                                    </a>
-                                 </li>
-                                 
-                                 
-                                 <li>
-                                  <a title="mezka.com" class="bwWrapper" href="http://www.mezka.com" target="_blank">
-                          <img alt="client10" src="photos/client10.png">
-                                    </a>
-                                 </li>
-                                 
-                                 <li>
-                                  <a title="virqo.com" class="bwWrapper" href="http://www.virqo.com" target="_blank">
-                          <img alt="client12" src="photos/client12.png">
-                                    </a>
-                                 </li>
-                                 
-                                 <li>
-                                  <a title="7art.com" class="bwWrapper" href="http://www.7art.com" target="_blank">
-                          <img alt="client02" src="photos/client02.png">
-                                    </a>
-                                 </li>
-                                 
-                                 
-                                 <li>
-                                  <a title="inafo.com" class="bwWrapper" href="http://www.inafo.com" target="_blank">
-                          <img alt="client09" src="photos/client09.png">
-                                    </a>
-                                 </li>
-                                 
-                                 <li>
-                                  <a title="shyks.com" class="bwWrapper" href="http://www.shyks.com" target="_blank">
-                          <img alt="client01" src="photos/client01.png">
-                                    </a>
-                                 </li>
-                                 
-                                 <li>
-                                  <a title="vayora.com" class="bwWrapper" href="http://www.vayora.com" target="_blank">
-                          <img alt="client03" src="photos/client03.png">
-                                    </a>
-                                 </li>
-                                 
-                                 
-                                 <li>
-                                  <a title="netzif.com" class="bwWrapper" href="http://www.netzif.com" target="_blank">
-                          <img alt="client04" src="photos/client04.png">
-                                    </a>
-                                 </li>
-                                 
-                                 <li>
-                                  <a title="eliph.com" class="bwWrapper" href="http://www.eliph.com" target="_blank">
-                          <img alt="client06" src="photos/client06.png">
-                                    </a>
-                                 </li>
-
-                            </ul>
-                
-                        </div>
-                    </div>
-                 <!-- End Clients Carousel -->
-     
-           
-                 <!-- Gap -->
-         <div class="gap gap40 clearfix"></div>
-
-
-         <!-- 1/5 (1st) -->
-         <div class="one-fifth column alpha">
-                  <div class="adbox style6 center">
-                      <div class="inside clearfix">
-                          
-                            <div class="icon_wrap">
-                              <span class="ibox icon-globe-alt sz-xl"></span>
-                            </div>
-                            
-                            <div class="text_wrap">
-                              <h2 class="adbox_title">Global</h2>
-                                <p>Wordpress Theme</p>
-                            </div>
-                            
-                            <div class="button right small">
-                              <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-basket-1 sz-xs"></span>Buy This</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                 </div>
-                 
-                 
-                 <!-- 1/5 (2nd) -->
-                 <div class="one-fifth column">
-                  <div class="adbox style6 center">
-                      <div class="inside clearfix">
-                          
-                            <div class="icon_wrap">
-                              <span class="ibox icon-home-1 sz-xl"></span>
-                            </div>
-                            
-                            <div class="text_wrap">
-                              <h2 class="adbox_title">Home</h2><p>Wordpress Theme</p>
-                            </div>
-                            
-                            <div class="button right small">
-                              <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-down-dir-1 sz-xs"></span>Get It</a>
-                            </div>
-                        </div>
+                </li>
+                <li>
+                    <div class="portfolio-thumb thumb-p4col">
+                        <a title="Wood" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="photos/2-640.jpg">
+                          <img alt="" src="photos/2-300x200.jpg">
+                          <div class="overlay"><span class="ov-lb"></span></div>
+                      </a>
+                  </div>
+                  <div class="portfolio-info info-p4col">
+                    <a class="portfolio-title" title="Wood" href="portfolio-single.html">
+                        <h3 class="title">Wood</h3>
+                    </a>
+                    <div class="portfolio-types">
+                        Interior Design, Photography
                     </div>
                 </div>
-                
-                
-                <!-- 1/5 (3rd) -->
-                <div class="one-fifth column">
-                  <div class="adbox style6 center">
-                      <div class="inside clearfix">
-                          
-                            <div class="icon_wrap">
-                              <span class="ibox icon-paper-plane sz-xl"></span>
-                            </div>
-                            
-                            <div class="text_wrap">
-                              <h2 class="adbox_title">Launch</h2><p>Wordpress Theme</p>
-                            </div>
-                            
-                            <div class="button right small">
-                              <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-rocket sz-xs"></span>Launch It</a>
-                            </div>
-                        </div>
-                    </div>
+            </li>
+            <li>
+                <div class="portfolio-thumb thumb-p4col">
+                    <a class="zoom" title="Business Interior" href="portfolio-single.html">
+                      <img alt="" src="photos/3-300x200.jpg">
+                      <div class="overlay"><span class="ov-to"></span></div>
+                  </a>
+              </div>
+              <div class="portfolio-info info-p4col">
+                <a class="portfolio-title" title="Business Interior" href="portfolio-single.html">
+                    <h3 class="title">Business Interior</h3>
+                </a>
+                <div class="portfolio-types">
+                    Business, Interior Design, Photography
                 </div>
-                
-                
-                <!-- 1/5 (4th) -->
-                <div class="one-fifth column">
-                  <div class="adbox style6 center">
-                      <div class="inside clearfix">
-                          
-                            <div class="icon_wrap">
-                              <span class="ibox icon-umbrella sz-xl"></span>
-                            </div>
-                            
-                            <div class="text_wrap">
-                              <h2 class="adbox_title">Title</h2><p>Wordpress Theme</p>
-                            </div>
-                            
-                            <div class="button right small">
-                              <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-leaf sz-xs"></span>Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <!-- 1/5 (5th) -->
-                <div class="one-fifth column omega">
-                  <div class="adbox style6 center">
-                      <div class="inside clearfix">
-                          
-                            <div class="icon_wrap">
-                              <span class="ibox icon-help-circled sz-xl"></span>
-                            </div>
-                            
-                            <div class="text_wrap">
-                              <h2 class="adbox_title">Why?</h2><p>Wordpress Theme</p>
-                            </div>
-                            
-                            <div class="button right small">
-                              <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-ok-1 sz-xs"></span>Register</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="clear"></div>
-                
-                
-                <!-- Gap -->
-                <div class="gap gap50 clearfix"></div>
-                
-                
-                
-                <!-- 1/3 (1st) -->
-                <div class="one-third column alpha">
-                  &nbsp;
-                </div>
-                
-                <!-- 1/3 (2nd) -->
-                <div class="one-third column">
-                    <div class="social-icon">
-                      <a target="_blank" title="Facebook" href="http://facebook.com"><span class="ibox icon-facebook"></span></a>
-                    </div>
-                    <div class="social-icon">
-                      <a target="_blank" title="Twitter" href="http://twitter.com"><span class="ibox icon-twitter"></span></a>
-                    </div>
-                    <div class="social-icon">
-                      <a target="_blank" title="Vimeo-circled" href="#"><span class="ibox icon-vimeo-circled"></span></a>
-                    </div>
-                    <div class="social-icon">
-                      <a target="_blank" title="Flickr" href="#"><span class="ibox icon-flickr"></span></a>
-                    </div>
-                    <div class="social-icon">
-                      <a target="_blank" title="Pinterest" href="#"><span class="ibox icon-pinterest"></span></a>
-                    </div>
-                    <div class="social-icon">
-                      <a target="_blank" title="Linkedin-circled" href="#"><span class="ibox icon-linkedin-circled"></span></a>
-                    </div>
-                </div>
-                
-                <!-- 1/3 (3rd) -->
-                <div class="one-third column omega">
-                  &nbsp;
-                </div>
-                
-                <div class="clear"></div>
-                        
+            </div>
+        </li>
+        <li>
+            <div class="portfolio-thumb thumb-p4col">
+                <a class="zoom" title="Lorem Eagle" href="portfolio-single.html">
+                  <img alt="" src="photos/4-300x200.jpg">
+                  <div class="overlay"><span class=""></span></div>
+              </a>
+          </div>
+          <div class="portfolio-info info-p4col">
+            <a class="portfolio-title" title="Lorem Eagle" href="portfolio-single.html">
+                <h3 class="title">Lorem Eagle</h3>
+            </a>
+            <div class="portfolio-types">
+                Animal, Nature, Photography
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="portfolio-thumb thumb-p4col">
+            <a title="Modeling" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="photos/5-300x200.jpg">
+                <img alt="" src="photos/5-300x200.jpg">
+                <div class="overlay"><span class="ov-lb"></span></div>
+            </a>
+        </div>
+        <div class="portfolio-info info-p4col">
+            <a class="portfolio-title" title="Modeling" href="portfolio-single.html">
+                <h3 class="title">Modeling</h3>
+            </a>
+            <div class="portfolio-types">
+                Photography
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="portfolio-thumb thumb-p4col">
+            <a title="YouTube Video" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="http://www.youtube.com/watch?v=qANZrq7UbjE">
+              <img alt="" src="photos/6-300x200.jpg">
+              <div class="overlay"><span class="ov-vd"></span></div>
+          </a>
+      </div>
+      <div class="portfolio-info info-p4col">
+        <a class="portfolio-title" title="YouTube Video" href="portfolio-single-youtube.html">
+            <h3 class="title">YouTube Video</h3>
+        </a>
+        <div class="portfolio-types">
+            Animal, Video
+        </div>
+    </div>
+</li>
+<li>
+    <div class="portfolio-thumb thumb-p4col">
+        <a class="zoom" target="_blank" title="Golgraphic.com" href="http://www.golgraphic.com">
+          <img alt="" src="photos/7-300x200.jpg">
+          <div class="overlay"><span class="ov-ol"></span></div>
+      </a>
+  </div>
+  <div class="portfolio-info info-p4col">
+    <a class="portfolio-title" title="Golgraphic.com" href="portfolio-single.html">
+        <h3 class="title">Golgraphic.com</h3>
+    </a>
+    <div class="portfolio-types">
+        Business, Web Design
+    </div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- End portfolio Carousel -->
+<!-- Gap -->
+<div class="gap gap40 clearfix"></div>
+<!-- 1/3 -->  
+<div class="one-third column alpha">
+    <div class="gfont gfont_custom_1 clearfix">IT’S AMAZING THEME EVER SEEN</div>
+</div>
+<!-- 2/3 -->
+<div class="two-thirds column omega">
+  <div class="tabswrap vtabs clearfix">
+    <ul class="tabs">
+      <li class="tab"><a href="#panel32421"><span class="ibtn icon-comment sz-s"></span>Step 1</a></li>
+      <li class="tab"><a href="#panel32422"><span class="ibtn icon-play-1 sz-s"></span>Step 2 (Video)</a></li>
+      <li class="tab"><a href="#panel32423"><span class="ibtn icon-thumbs-up sz-s"></span>Step 3</a></li>
+  </ul>
+  <div id="panel32421" class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do&nbsp;<span title="Tooltip Text" class="tooltips top"><strong>Tooltip</strong></span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+  </div>
+  <div id="panel32422" class="panel">
+      <div class="video-embed">
+          <iframe width="560" height="315" class="iframe" src="http://player.vimeo.com/video/62371769?autoplay=&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+      </div>
+  </div>
+  <div id="panel32423" class="panel">
+      <p>It’s Done !</p>
+      <div class="gap gap10 clearfix"></div>
+      <!-- Message Box -->
+      <div class="message error">
+          <span class="bullets b-error"></span>
+          It’s an Error Message
+          <span class="close c-error"></span>
+      </div>
+      <div class="message success">
+          <span class="bullets b-success"></span>
+          Your Success Message here!
+          <span class="close c-success"></span>
+      </div>
+      <div class="message info">
+          <span class="bullets b-info"></span>
+          It’s an info Message
+          <span class="close c-info"></span>
+      </div>
+  </div>
+</div>
+</div>
+<div class="clear"></div>
+<!-- Gap -->
+<div class="gap gap40 clearfix"></div>
 
-                <!-- ======================================== --> 
-                    <!-- End Content ============================ -->
-                    <!-- ======================================== -->       
-                            
-                      </div>  
-      
-                </div><!-- container -->
-                
-             </div><!-- end band-->    
-             <!-- End CONTENT -->
+<!-- Clients Carousel -->       
+<div class="clearfix">
+    <div id="clients-carousel" class="clients-carousel clients">
+        <h3 class="title">Our Clients</h3>
+        <div class="nxt" id="nxt_clients_carousel"> &#xe850;</div>
+        <div class="prv" id="prv_clients_carousel"> &#xe84f;</div>
+        <ul class="cc_carousel" id="clients_carousel">
+           <li>
+              <a title="orlip.com" class="bwWrapper" href="http://www.orlip.com" target="_blank">
+                  <img alt="client06" src="photos/client06.png">
+              </a>
+          </li>
+          <li>
+              <a title="boolga.com" class="bwWrapper" href="http://www.boolga.com" target="_blank">
+                  <img alt="client07" src="photos/client07.png">
+              </a>
+          </li>
+          <li>
+              <a title="mezka.com" class="bwWrapper" href="http://www.mezka.com" target="_blank">
+                  <img alt="client10" src="photos/client10.png">
+              </a>
+          </li>
+          <li>
+              <a title="virqo.com" class="bwWrapper" href="http://www.virqo.com" target="_blank">
+                  <img alt="client12" src="photos/client12.png">
+              </a>
+          </li>
+          <li>
+              <a title="7art.com" class="bwWrapper" href="http://www.7art.com" target="_blank">
+                  <img alt="client02" src="photos/client02.png">
+              </a>
+          </li>
+          <li>
+              <a title="inafo.com" class="bwWrapper" href="http://www.inafo.com" target="_blank">
+                  <img alt="client09" src="photos/client09.png">
+              </a>
+          </li>
+          <li>
+              <a title="shyks.com" class="bwWrapper" href="http://www.shyks.com" target="_blank">
+                  <img alt="client01" src="photos/client01.png">
+              </a>
+          </li>
+          <li>
+              <a title="vayora.com" class="bwWrapper" href="http://www.vayora.com" target="_blank">
+                  <img alt="client03" src="photos/client03.png">
+              </a>
+          </li>
+          <li>
+              <a title="netzif.com" class="bwWrapper" href="http://www.netzif.com" target="_blank">
+                  <img alt="client04" src="photos/client04.png">
+              </a>
+          </li>
+          <li>
+              <a title="eliph.com" class="bwWrapper" href="http://www.eliph.com" target="_blank">
+                  <img alt="client06" src="photos/client06.png">
+              </a>
+          </li>
+      </ul>
+  </div>
+</div>
+<!-- End Clients Carousel -->
+<!-- Gap -->
+<div class="gap gap40 clearfix"></div>
+<!-- 1/5 (1st) -->
+<div class="one-fifth column alpha">
+  <div class="adbox style6 center">
+      <div class="inside clearfix">
+        <div class="icon_wrap">
+          <span class="ibox icon-globe-alt sz-xl"></span>
+      </div>
+      <div class="text_wrap">
+          <h2 class="adbox_title">Global</h2>
+          <p>Wordpress Theme</p>
+      </div>
+      <div class="button right small">
+          <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-basket-1 sz-xs"></span>Buy This</a>
+      </div>
+  </div>
+</div>
+</div>
+<!-- 1/5 (2nd) -->
+<div class="one-fifth column">
+  <div class="adbox style6 center">
+      <div class="inside clearfix">
+        <div class="icon_wrap">
+          <span class="ibox icon-home-1 sz-xl"></span>
+      </div>
+      <div class="text_wrap">
+          <h2 class="adbox_title">Home</h2><p>Wordpress Theme</p>
+      </div>
+      <div class="button right small">
+          <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-down-dir-1 sz-xs"></span>Get It</a>
+      </div>
+  </div>
+</div>
+</div>
+<!-- 1/5 (3rd) -->
+<div class="one-fifth column">
+  <div class="adbox style6 center">
+      <div class="inside clearfix">
+        <div class="icon_wrap">
+          <span class="ibox icon-paper-plane sz-xl"></span>
+      </div>
+      <div class="text_wrap">
+          <h2 class="adbox_title">Launch</h2><p>Wordpress Theme</p>
+      </div>
+      <div class="button right small">
+          <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-rocket sz-xs"></span>Launch It</a>
+      </div>
+  </div>
+</div>
+</div>
+<!-- 1/5 (4th) -->
+<div class="one-fifth column">
+  <div class="adbox style6 center">
+      <div class="inside clearfix">
+        <div class="icon_wrap">
+          <span class="ibox icon-umbrella sz-xl"></span>
+      </div>
+      <div class="text_wrap">
+          <h2 class="adbox_title">Title</h2><p>Wordpress Theme</p>
+      </div>
+      <div class="button right small">
+          <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-leaf sz-xs"></span>Download</a>
+      </div>
+  </div>
+</div>
+</div>
+<!-- 1/5 (5th) -->
+<div class="one-fifth column omega">
+  <div class="adbox style6 center">
+      <div class="inside clearfix">
+        <div class="icon_wrap">
+          <span class="ibox icon-help-circled sz-xl"></span>
+      </div>
+      <div class="text_wrap">
+          <h2 class="adbox_title">Why?</h2><p>Wordpress Theme</p>
+      </div>
+      <div class="button right small">
+          <a target="_blank" href="http://www.tohidgolkar.com"><span class="ibtn icon-ok-1 sz-xs"></span>Register</a>
+      </div>
+  </div>
+</div>
+</div>
+<div class="clear"></div>
+<!-- Gap -->
+<div class="gap gap50 clearfix"></div>
+<!-- 1/3 (1st) -->
+<div class="one-third column alpha">
+  &nbsp;
+</div>
+<!-- 1/3 (2nd) -->
+<div class="one-third column">
+    <div class="social-icon">
+      <a target="_blank" title="Facebook" href="http://facebook.com"><span class="ibox icon-facebook"></span></a>
+  </div>
+  <div class="social-icon">
+      <a target="_blank" title="Twitter" href="http://twitter.com"><span class="ibox icon-twitter"></span></a>
+  </div>
+  <div class="social-icon">
+      <a target="_blank" title="Vimeo-circled" href="#"><span class="ibox icon-vimeo-circled"></span></a>
+  </div>
+  <div class="social-icon">
+      <a target="_blank" title="Flickr" href="#"><span class="ibox icon-flickr"></span></a>
+  </div>
+  <div class="social-icon">
+      <a target="_blank" title="Pinterest" href="#"><span class="ibox icon-pinterest"></span></a>
+  </div>
+  <div class="social-icon">
+      <a target="_blank" title="Linkedin-circled" href="#"><span class="ibox icon-linkedin-circled"></span></a>
+  </div>
+</div>
+<!-- 1/3 (3rd) -->
+<div class="one-third column omega">
+  &nbsp;
+</div>
+<div class="clear"></div>
+<!-- ======================================== --> 
+<!-- End Content ============================ -->
+<!-- ======================================== -->       
+</div>  
+</div><!-- container -->
+</div><!-- end band-->    
+<!-- End CONTENT -->    
 
-      
-            
-            
-            <!-- TWITTER -->   
-            <div class="band twitter" >
-                
-                <div class="container">
-                    <div class="sixteen columns" >
-                    
-                        <div class="twitter_icon">
-                             <span class="icon-twitter sz-l"></span>
-                        </div>
-                        <div class="tweet"></div>
-                        
-                    </div>
-                </div><!-- container -->
-                
-            </div><!-- end band-->    
-            <!-- End TWITTER -->
-            
-            
-    
-    
-            
-            <!-- FOOTER -->
+	              <!-- FOOTER -->
       <footer class="band footer" >
             
             
@@ -1351,14 +986,8 @@
             </div><!-- container -->
             
          </footer><!-- end footer-->   
-     
-     </div><!-- end Wrap -->
-     
-     
-     
-<!-- End Document -->
-</body>
+
+
     </div>
-  </div>
 </body>
 </html>
