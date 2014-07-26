@@ -2,8 +2,10 @@
 Template Name: Interio
 Author: Tohid Golkar
 Author URI: http://tohidgolkar.com
-Version: 1.2
+Version: 1.1
+Predefined Style #4
 */
+
 
 
 /* Import Google Font:
@@ -38,21 +40,14 @@ body{
 	*/
 	
 	/* Background Pattern  (01.png to 98.png)*/
-	/*background-image:url(../images/pattern/92.png); */ 
+	/*background-image:url(../images/pattern/92.png) repeat;*/
 	
 }
 	
-			
-	/* Boxed layout background color 			
-	.wrap.boxed, .wrap.boxed-margin{background-color:;}';
-	*/
-	
-	/*Wide layout background color 			
-	.wrap.wide{background-color:;}
-	*/			
+					
 
-	.wrap.wide,.search_text{
-		background-color:#FFFFFF;
+	.wrap.boxed, .wrap.boxed-margin,.wrap.wide,.search_text{
+		background-color:#bbdbfc;
 		}
 
 	/* Typography */
@@ -61,49 +56,49 @@ body{
 		font-family:'Open Sans', Arial, Helvetica, sans-serif;
 		font-size: 46px;
 		font-weight: 700;
-		color: #333333;
+		color: #004370;
 		}
 	
 	h1.logo{
 		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 		font-size: 28px;
 		font-weight: 700;
-		color: #666666;
+		color: #004370;
 		}         
 	
 	h2{
 		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 		font-size: 35px;
 		font-weight:700;
-		color: #333333;
+		color: #004370;
 		}
 	
 	h3{
 		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 		font-size: 28px;
 		font-weight: 700;
-		color: #333333;
+		color: #004370;
 		}
 	
 	h4{
 		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 		font-size: 21px;
 		font-weight: 400;
-		color: #333333;
+		color: #004370;
 		}
 	
 	h5{
 		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 		font-size: 16px;
 		font-weight: 400;
-		color: #333333;
+		color: #004370;
 		}
 	
 	h6{
 		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 		font-size: 14px;
 		font-weight: 700;
-		color: #333333;
+		color: #004370;
 		}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited{
@@ -112,7 +107,7 @@ body{
 		}
 	
 	h1.title,h2.title,h3.title,h4.title,h5.title,h6.title {
-		border-color:#CCCCCC;
+		border-color:rgba(0, 67, 112, 0.25);
 		}
 	
 	a, a:visited{
@@ -142,39 +137,80 @@ body{
 	.sf-menu { font-size: 15px;}
 	
 	
+	
 	/* Buttons Color */
-	.button a, a.read-more-link,ul.filter li.current a,
-	.pagination a.selected{background-color:#CC0000 !important;border-top:solid 1px #CC0000 !important; }
-	.pagination a.inactive,.widget .tabswrap .panel ul.wp-tag-cloud li a{background-color:#888 !important;border-top:solid 1px #888 !important; }
-	.button a:hover,  a.read-more-link:hover, ul.filter li a:hover,ul.filter li.current a,.widget .tabswrap .panel ul.wp-tag-cloud li a:hover,
-	.pagination a:hover, .pagination a.selected:hover,.tagcloud a:hover{background-color:#CC0000 !important;border-top:solid 1px #CC0000 !important; }
+	.button a,
+	a.read-more-link,
+	ul.filter li.current a,
+	.pagination a.selected{
+		background-color:#4f96cc !important;
+		border-top:solid 1px #4f96cc !important;
+		}
+	
+	.pagination a.inactive,
+	.widget .tabswrap .panel ul.wp-tag-cloud li a{
+		background-color:#888 !important;
+		border-top:solid 1px #888 !important;
+		}
+	
+	.button a:hover,
+	a.read-more-link:hover,
+	ul.filter li a:hover,
+	ul.filter li.current a,
+	.widget .tabswrap .panel ul.wp-tag-cloud li a:hover,
+	.pagination a:hover, .pagination a.selected:hover,
+	.tagcloud a:hover{
+		background-color:#4f96cc !important;
+		border-top:solid 1px #4f96cc !important;
+		}
+	
+	
 	
 	
 	/* Icons Color Settings */
-	[class^="icon-"]:before,[class*=" icon-"]:before,
-	.clients #nxt:hover ,.portfolio-carousel #pnxt:hover,.clients #prv:hover, .portfolio-carousel #pprv:hover,footer .gototop a:hover {color:#CC0000;}
-	.sf-menu [class^="icon-"]:before,.sf-menu [class*=" icon-"]:before {color:#CC0000;}
-	.twitter_icon .icon-twitter:before,	.twitter_icon .icon-twitter-circled:before {color:#CCCCCC;}
-	footer [class^="icon-"]:before,footer [class*=" icon-"]:before {color:#999999;}
-	.tab .ibtn:before,.respo_menu:before {color:#CC0000;}
-	ul.flex-direction-nav li a,	ol.flex-control-nav li a:hover,
-	ol.flex-control-nav li a.flex-active,.nivo-directionNav a,.nivo-controlNav a:hover,.nivo-controlNav a.active,.nav-arrows a,	.pxs_navigation span {background:#CC0000 !important;}
+	[class^="icon-"]:before,
+	[class*=" icon-"]:before,
+	.clients #nxt:hover ,
+	.portfolio-carousel #pnxt:hover,
+	.clients #prv:hover,
+	.portfolio-carousel #pprv:hover,
+	footer .gototop a:hover {color:#4f96cc;}
+	
+	.sf-menu [class^="icon-"]:before,
+	.sf-menu [class*=" icon-"]:before {color:#4f96cc;}
+	
+	.twitter_icon .icon-twitter:before,
+	.twitter_icon .icon-twitter-circled:before {color:#CCCCCC;}
+	
+	footer [class^="icon-"]:before,
+	footer [class*=" icon-"]:before {color:#999999;}
+	
+	.tab .ibtn:before,
+	.respo_menu:before {color:#4f96cc;}
+	
+	ul.flex-direction-nav li a,
+	ol.flex-control-nav li a:hover,
+	ol.flex-control-nav li a.flex-active,
+	.nivo-directionNav a,
+	.nivo-controlNav a:hover,
+	.nivo-controlNav a.active,
+	.nav-arrows a,
+	.pxs_navigation span {background:#4f96cc !important;}
+	
 	span.ibtn:before {color:#EEEEEE;}
 	
 	
-	.search_text{background-color:#DEDEDE;}
-	
 	
 	/* Image Overlay button color */
-	.overlay span {background-color:#CC0000;}
+	.overlay span {background-color:#4f96cc;}
 	
 	
 	/* Tooltip Color */
-	.tooltip-inner {background-color:#CC0000;}
-	.tooltip.top .tooltip-arrow {border-top-color:#CC0000;}
-	.tooltip.left .tooltip-arrow {border-left-color:#CC0000;}
-	.tooltip.bottom .tooltip-arrow  {border-bottom-color:#CC0000;}
-	.tooltip.right .tooltip-arrow  {border-right-color:#CC0000;}
+	.tooltip-inner {background-color:#4f96cc;}
+	.tooltip.top .tooltip-arrow {border-top-color:#4f96cc;}
+	.tooltip.left .tooltip-arrow {border-left-color:#4f96cc;}
+	.tooltip.bottom .tooltip-arrow  {border-bottom-color:#4f96cc;}
+	.tooltip.right .tooltip-arrow  {border-right-color:#4f96cc;}
 	
 	
 	
@@ -322,7 +358,7 @@ body{
 		
 	/* Highlight Custom Style */
 	.highlight_custom_1 {
-		background-color:#CC0000;
+		background-color:#4f96cc;
 		color: #FFFFFF;
 		}
 		
@@ -340,7 +376,7 @@ body{
 		
 	/* Custom Pricing Table */
 	.pricing-table .featured{
-		background-color:#cc0000;
+		background-color:#4f96cc;
 		}
 		
 	.pricing-table .custom_color_1{
