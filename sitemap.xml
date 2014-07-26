@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://yuvalqen.com/cci-website/about.html</loc>
-        <lastmod>2014-07-25T12:11:15+03:00</lastmod>
+        <lastmod>2014-07-26T19:06:52+03:00</lastmod>
     </url>
     <url>
         <loc>http://yuvalqen.com/cci-website/blog/archives/</loc>
@@ -10,10 +10,18 @@
     </url>
     <url>
         <loc>http://yuvalqen.com/cci-website/</loc>
-        <lastmod>2014-07-21T19:13:29+03:00</lastmod>
+        <lastmod>2014-07-26T19:03:01+03:00</lastmod>
     </url>
     <url>
         <loc>http://yuvalqen.com/cci-website/robots.txt</loc>
         <lastmod>2014-07-19T13:21:57+03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yuvalqen.com/cci-website/sectors.html</loc>
+        <lastmod>2014-07-26T19:32:32+03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yuvalqen.com/cci-website/services.html</loc>
+        <lastmod>2014-07-26T19:23:50+03:00</lastmod>
     </url>
 </urlset>
