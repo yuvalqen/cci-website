@@ -7,6 +7,105 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "source/about.html",
+			"settings":
+			{
+				"buffer_size": 17171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Knowledge Hub<br>\nThe future is behind us? The human factor in cyber intelligence: Correlations between Cyber-HUMINT and Hackers’ Social Engineering<br>\nDr. Amit Steinhart<br>\nPublished online on 31.03.2014<br>\nIn recent years, we have been continuously alerted of the danger posed by various cyber factors. To match this, we see national intelligence agencies and even private intelligence organizations investing vast resources in gathering, analysing and producing intelligence material originating from the Internet and the Darknet. Many current research highlights the relatively obvious advantage in the hands of attackers regarding the cost and effort of attack versus defence, usually due to the complexity of existent defence technologies, and the surprise factor which usually favours the attackers. National institutions and private companies hire qualified cybersecurity experts on an industrial scale, and often it looks like whoever knows how to operate a computer overnight becomes a cyberwarrior and an intelligence analyst. There is no dispute regarding the vast importance of training cyber personnel on gathering and processing intelligence information, but it seems that especially in the area of intelligence gathering we are ignoring many of our traditional skills, achieved over more than a century of national intelligence organization experience.<br>\nRead the full article here[LINK]<br>\nCase Studies<br>\nI suggest that here you list the Mt Gox subpage and the 6 case studies available on the current website. You may insert cross referral links to the services and back.",
+			"settings":
+			{
+				"buffer_size": 1596,
+				"line_ending": "Unix",
+				"name": "Knowledge Hub<br>"
+			}
+		},
+		{
+			"file": "source/_includes/custom/member.html",
+			"settings":
+			{
+				"buffer_size": 1213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/index.html",
+			"settings":
+			{
+				"buffer_size": 4477,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/services.html",
+			"settings":
+			{
+				"buffer_size": 6702,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/sectors.html",
+			"settings":
+			{
+				"buffer_size": 6112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_includes/custom/sectorbox.html",
+			"settings":
+			{
+				"buffer_size": 631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 1997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/custom/_styles.scss",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 66 files for \"Litigation\" (regex)\n\n0 matches across 0 files\n\n\nSearching 421 files for \"ligitayion\" (regex)\n\n0 matches across 0 files\n\n\nSearching 421 files for \"litigation\" (regex)\n\n/Users/yuval/Dev/cci-website/_deploy/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/_deploy/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/_deploy/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/_deploy/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/_deploy/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/public/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/public/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/public/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/source/index.html:\n   30              <!-- 1/3 column - First -->\n   31              {% assign servicebox_extra_class = \"alpha\" %}\n   32:             {% assign servicebox_title = \"Litigation\" %}\n   33              {% assign servicebox_icon = \"icon-suitcase\" %}\n   34              {% assign servicebox_text = \"Two sentence excerpt\" %}\n   35:             {% assign servicebox_link = \"services.html#litigation\" %}\n   36              {% include custom/servicebox.html %}\n   37  \n\n/Users/yuval/Dev/cci-website/source/sectors.html:\n   87  <a class=\"anchor\" id=\"law-firms\"></a>\n   88  <h3 class=\"title\">Law Firms</h3>\n   89: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n   90: <p>Tags: law firm, litigation</p>\n   91  \n   92  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/source/services.html:\n   62                          \n   63     \n   64: <a class=\"anchor\" id=\"litigation\"></a>\n   65: <h3 class=\"title\">Litigation</h3>\n   66: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n   67  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n   68  \n\n/Users/yuval/Dev/cci-website/source/_includes/custom/header.html:\n   49                      	<li><a href=\"services.html\">Services</a>\n   50                              <ul class=\"sub-menu\">\n   51:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n   52                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n   53                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n46 matches across 14 files\n\n\nSearching 421 files for \"litigation\" (regex)\n\n/Users/yuval/Dev/cci-website/_deploy/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/_deploy/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/_deploy/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/_deploy/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/_deploy/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/public/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/public/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/public/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/source/index.html:\n   30              <!-- 1/3 column - First -->\n   31              {% assign servicebox_extra_class = \"alpha\" %}\n   32:             {% assign servicebox_title = \"Litigation\" %}\n   33              {% assign servicebox_icon = \"icon-suitcase\" %}\n   34              {% assign servicebox_text = \"Two sentence excerpt\" %}\n   35:             {% assign servicebox_link = \"services.html#litigation\" %}\n   36              {% include custom/servicebox.html %}\n   37  \n\n/Users/yuval/Dev/cci-website/source/sectors.html:\n   87  <a class=\"anchor\" id=\"law-firms\"></a>\n   88  <h3 class=\"title\">Law Firms</h3>\n   89: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n   90: <p>Tags: law firm, litigation</p>\n   91  \n   92  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/source/services.html:\n   62                          \n   63     \n   64: <a class=\"anchor\" id=\"litigation\"></a>\n   65: <h3 class=\"title\">Litigation</h3>\n   66: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n   67  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n   68  \n\n/Users/yuval/Dev/cci-website/source/_includes/custom/header.html:\n   49                      	<li><a href=\"services.html\">Services</a>\n   50                              <ul class=\"sub-menu\">\n   51:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n   52                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n   53                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n46 matches across 14 files\n\n\nSearching 421 files for \"litigation\" (regex)\n\n/Users/yuval/Dev/cci-website/_deploy/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/_deploy/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/_deploy/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/_deploy/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/_deploy/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation Support</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/public/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/public/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/public/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/source/index.html:\n   30              <!-- 1/3 column - First -->\n   31              {% assign servicebox_extra_class = \"alpha\" %}\n   32:             {% assign servicebox_title = \"Litigation Support\" %}\n   33              {% assign servicebox_icon = \"icon-suitcase\" %}\n   34              {% assign servicebox_text = \"Two sentence excerpt\" %}\n   35:             {% assign servicebox_link = \"services.html#litigation\" %}\n   36              {% include custom/servicebox.html %}\n   37  \n\n/Users/yuval/Dev/cci-website/source/sectors.html:\n   87  <a class=\"anchor\" id=\"law-firms\"></a>\n   88  <h3 class=\"title\">Law Firms</h3>\n   89: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n   90: <p>Tags: law firm, litigation</p>\n   91  \n   92  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/source/services.html:\n   62                          \n   63     \n   64: <a class=\"anchor\" id=\"litigation\"></a>\n   65: <h3 class=\"title\">Litigation</h3>\n   66: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n   67  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n   68  \n\n/Users/yuval/Dev/cci-website/source/_includes/custom/header.html:\n   49                      	<li><a href=\"services.html\">Services</a>\n   50                              <ul class=\"sub-menu\">\n   51:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n   52                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n   53                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n46 matches across 14 files\n\n\nSearching 421 files for \"litigation\" (regex)\n\n/Users/yuval/Dev/cci-website/_deploy/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/_deploy/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/_deploy/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/_deploy/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/_deploy/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation Support</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/public/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/public/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/public/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/source/index.html:\n   30              <!-- 1/3 column - First -->\n   31              {% assign servicebox_extra_class = \"alpha\" %}\n   32:             {% assign servicebox_title = \"Litigation Support\" %}\n   33              {% assign servicebox_icon = \"icon-suitcase\" %}\n   34              {% assign servicebox_text = \"Two sentence excerpt\" %}\n   35:             {% assign servicebox_link = \"services.html#litigation\" %}\n   36              {% include custom/servicebox.html %}\n   37  \n\n/Users/yuval/Dev/cci-website/source/sectors.html:\n   87  <a class=\"anchor\" id=\"law-firms\"></a>\n   88  <h3 class=\"title\">Law Firms</h3>\n   89: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n   90: <p>Tags: law firm, litigation</p>\n   91  \n   92  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/source/services.html:\n   62                          \n   63     \n   64: <a class=\"anchor\" id=\"litigation\"></a>\n   65: <h3 class=\"title\">Litigation</h3>\n   66: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n   67  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n   68  \n\n/Users/yuval/Dev/cci-website/source/_includes/custom/header.html:\n   49                      	<li><a href=\"services.html\">Services</a>\n   50                              <ul class=\"sub-menu\">\n   51:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n   52                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n   53                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n46 matches across 14 files\n\n\nSearching 421 files for \"litigation\" (regex)\n\n/Users/yuval/Dev/cci-website/_deploy/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/_deploy/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/_deploy/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/_deploy/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/_deploy/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/about.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/public/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  360                        <div class=\"icon_wrap\"><span class=\"ibox icon-suitcase sz-xl\"></span></div>\n  361                        <div class=\"text_wrap\">\n  362:                           <h2 class=\"servicebox_title\" style=\"min-height: 3em;\">Litigation Support</h2>\n  363                            <p>Two sentence excerpt</p>\n  364                        </div>\n  365                        <div class=\"button right small\">\n  366:                           <a href=\"services.html#litigation\"><span class=\"ibtn icon-down-dir-1 sz-xs\"></span>Read More</a>\n  367                        </div>\n  368                    </div>\n\n/Users/yuval/Dev/cci-website/public/sectors.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  406  <a class=\"anchor\" id=\"law-firms\"></a>\n  407  <h3 class=\"title\">Law Firms</h3>\n  408: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n  409: <p>Tags: law firm, litigation</p>\n  410  \n  411  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/public/services.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n  ...\n  381                          \n  382     \n  383: <a class=\"anchor\" id=\"litigation\"></a>\n  384: <h3 class=\"title\">Litigation Support</h3>\n  385: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n  386  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n  387  \n\n/Users/yuval/Dev/cci-website/public/blog/archives/index.html:\n  287                      	<li><a href=\"services.html\">Services</a>\n  288                              <ul class=\"sub-menu\">\n  289:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n  290                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n  291                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n/Users/yuval/Dev/cci-website/source/index.html:\n   30              <!-- 1/3 column - First -->\n   31              {% assign servicebox_extra_class = \"alpha\" %}\n   32:             {% assign servicebox_title = \"Litigation Support\" %}\n   33              {% assign servicebox_icon = \"icon-suitcase\" %}\n   34              {% assign servicebox_text = \"Two sentence excerpt\" %}\n   35:             {% assign servicebox_link = \"services.html#litigation\" %}\n   36              {% include custom/servicebox.html %}\n   37  \n\n/Users/yuval/Dev/cci-website/source/sectors.html:\n   87  <a class=\"anchor\" id=\"law-firms\"></a>\n   88  <h3 class=\"title\">Law Firms</h3>\n   89: <p class=\"justify\">Litigation cases are growing more and more complex. A piece of sensitive information can be decisive in court cases. Our task is to find this piece of information. Beside our intelligence professionals, our legal experts are familiar with the different legal systems and judicial practices. Thus the information or evidence we gather and the methods we apply fully comply with the special legal and ethical requirements. With CCI’s support law firms can achieve better success rate in court cases.</p>\n   90: <p>Tags: law firm, litigation</p>\n   91  \n   92  <!-- Gap -->\n\n/Users/yuval/Dev/cci-website/source/services.html:\n   62                          \n   63     \n   64: <a class=\"anchor\" id=\"litigation\"></a>\n   65: <h3 class=\"title\">Litigation Support</h3>\n   66: <p class=\"justify\">By combining cyber and human intelligence methods, we support our clients in litigation and conflict management. We have a thorough understanding of different – both national and international - legal systems and judicial practices. From evidence collection through the analysis of vulnerabilities, hidden agenda and strategy of the adversaries of our clients to locating potential witnesses, we provide a range of service that is indispensable in litigation and conflict resolution. Our selected team of intelligence, cyber and legal experts is capable of helping our clients even with the most complicated legal cases without applying immoral techniques. With our services law firms can achieve better success rate in court cases and corporations are able to professionally and favourably manage conflicts.</p>\n   67  <p>Tags: law, law firm, corporation, conflict, conflict management, conflict resolution, legal, court, cyber security</p>\n   68  \n\n/Users/yuval/Dev/cci-website/source/_includes/custom/header.html:\n   49                      	<li><a href=\"services.html\">Services</a>\n   50                              <ul class=\"sub-menu\">\n   51:                                 <li><a href=\"services.html#litigation\">Litigation Support</a></li>\n   52                                  <li><a href=\"services.html#due-diligence\">Due Diligence</a></li>\n   53                                  <li><a href=\"services.html#competitive-intelligence\">Competitive Intelligence</a></li>\n\n46 matches across 14 files\n",
+			"settings":
+			{
+				"buffer_size": 64900,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "_deploy/about.html",
+			"settings":
+			{
+				"buffer_size": 44575,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_includes/custom/header.html",
+			"settings":
+			{
+				"buffer_size": 3527,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -35,6 +134,30 @@
 	},
 	"file_history":
 	[
+		"/Users/yuval/Dev/cci-website/_config.yml",
+		"/Users/yuval/Dev/cci-website/source/_includes/custom/servicebox.html",
+		"/Users/yuval/Dev/cci-website/sass/theme/_layout.scss",
+		"/Users/yuval/Dev/cci-website/source/_includes/custom/header.html",
+		"/Users/yuval/Dev/cci-website/sass/theme/_custom-style.scss",
+		"/Users/yuval/Dev/cci-website/sass/custom/_styles.scss",
+		"/Users/yuval/Dev/cci-website/sass/theme/_responsive.scss",
+		"/Users/yuval/Dev/cci-website/sass/theme/_fontello-ie7.scss",
+		"/Users/yuval/Dev/cci-website/source/_layouts/default.html",
+		"/Users/yuval/Dev/cci-website/Rakefile",
+		"/Users/yuval/Dev/cci-website/sass/base/_theme.scss",
+		"/Users/yuval/Dev/cci-website/source/_includes/custom/head.html",
+		"/Users/yuval/Dev/cci-website/sass/screen.scss",
+		"/Users/yuval/Dev/cci-website/source/_includes/head.html",
+		"/Users/yuval/Dev/cci-website/source/_includes/custom/footer.html",
+		"/Users/yuval/Dev/cci-website/source/index.html",
+		"/Users/yuval/Dev/cci-website/source/_includes/custom/asides/member.html",
+		"/Users/yuval/Dev/cci-website/source/_includes/theme/head.html",
+		"/Users/yuval/Dev/cci-website/sass/theme/fontello.css",
+		"/Users/yuval/Dev/cci-website/public/stylesheets/screen.css",
+		"/Users/yuval/Dev/cci-website/CNAME",
+		"/Users/yuval/Dev/cci-website/robots.txt",
+		"/Users/yuval/Dev/cci-website/source/CNAME",
+		"/Users/yuval/Dev/cci-website/stylesheets/screen.css",
 		"/Users/yuval/Dev/Fitblok-Wordpress/fitblok-for-wordpress.php",
 		"/Users/yuval/Dev/mrqen/source/_includes/custom/intro.html",
 		"/Users/yuval/Dev/mrqen/source/_includes/footer.html",
@@ -89,6 +212,13 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"",
+			"*.scss",
+			"*.css",
+			"-*/.themes/*,-*/public/*",
+			"",
+			"*source*",
+			"source",
 			"-*/.themes/*,-*/public/*",
 			"-*.themes/*",
 			""
@@ -99,6 +229,73 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"litigation",
+			"ligitayion",
+			"Litigation",
+			"anchor",
+			"root",
+			"javasc",
+			"video",
+			"ov-lb",
+			"ov-to",
+			"icon",
+			"adbox_",
+			"adbox",
+			"adbox.html",
+			"suitcase",
+			"glass",
+			"magni",
+			"icon-home-1",
+			"one-third",
+			"\\n\\n",
+			"37%",
+			"\\n\\n",
+			" \\n\\n",
+			"62%",
+			"about %}",
+			"about.html",
+			"32%",
+			"p1col",
+			"thumb-p1col {",
+			"thumb-p1col",
+			"root",
+			"class=\"search_text",
+			"handheld",
+			"boxed",
+			"jquery.1.8.3",
+			"/javascripts",
+			"java",
+			"\"javascripts",
+			"source",
+			"/javascripts",
+			"twitter",
+			"vimeo",
+			"twitter",
+			"vimeo",
+			"logo.png",
+			"javascripts/",
+			"js/",
+			"css",
+			"favicon",
+			"robots",
+			"css",
+			"url",
+			"root_url",
+			"header_pane",
+			"url",
+			"root_url",
+			"url(",
+			"header_pane.jpg",
+			"header_pane",
+			"url(\"/imag",
+			"url(\"hea",
+			"url(\"",
+			"url(",
+			"source/",
+			"source",
+			"screen.css",
+			"screens.css",
+			"studio10c",
 			"analytics",
 			"fulfilling",
 			"my journe",
@@ -159,37 +356,18 @@
 			"appstore",
 			"remove_photo_remote",
 			"photo =",
-			"photo",
-			"photo.id",
-			"remove_photo_link",
-			"remove_photo",
-			"remove",
-			"delete_photo",
-			"delete",
-			"s3-dev",
-			"Client",
-			".client",
-			"handle",
-			"client",
-			"handle_photo",
-			".client",
-			"Client",
-			"client",
-			"def photo",
-			"photo",
-			"models.model",
-			"def",
-			"photos_get_latest",
-			"No Images",
-			"OSXRD",
-			"skeleton"
+			"photo"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\n",
+			"<br>\\n",
+			"<br>",
+			" ",
 			"10",
 			"9",
 			"osxrd",
@@ -204,8 +382,1283 @@
 	"groups":
 	[
 		{
+			"selected": 8,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "source/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3233,
+								3334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1095.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Knowledge Hub<br>",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/_includes/custom/member.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1137,
+								1137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 231.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/services.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1912,
+								1912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 792.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/sectors.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2152,
+								2152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 844.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "source/_includes/custom/sectorbox.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "source/_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1331,
+								1331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sass/custom/_styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64900,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										432,
+										442
+									],
+									[
+										444,
+										454
+									],
+									[
+										936,
+										946
+									],
+									[
+										948,
+										958
+									],
+									[
+										1449,
+										1459
+									],
+									[
+										1680,
+										1690
+									],
+									[
+										2066,
+										2076
+									],
+									[
+										2078,
+										2088
+									],
+									[
+										2445,
+										2455
+									],
+									[
+										2973,
+										2983
+									],
+									[
+										3261,
+										3271
+									],
+									[
+										3273,
+										3283
+									],
+									[
+										3601,
+										3611
+									],
+									[
+										3643,
+										3653
+									],
+									[
+										3762,
+										3772
+									],
+									[
+										4133,
+										4143
+									],
+									[
+										4891,
+										4901
+									],
+									[
+										4903,
+										4913
+									],
+									[
+										5394,
+										5404
+									],
+									[
+										5406,
+										5416
+									],
+									[
+										5897,
+										5907
+									],
+									[
+										5909,
+										5919
+									],
+									[
+										6410,
+										6420
+									],
+									[
+										6641,
+										6651
+									],
+									[
+										7026,
+										7036
+									],
+									[
+										7038,
+										7048
+									],
+									[
+										7405,
+										7415
+									],
+									[
+										7933,
+										7943
+									],
+									[
+										8220,
+										8230
+									],
+									[
+										8232,
+										8242
+									],
+									[
+										8560,
+										8570
+									],
+									[
+										8602,
+										8612
+									],
+									[
+										8721,
+										8731
+									],
+									[
+										9092,
+										9102
+									],
+									[
+										9849,
+										9859
+									],
+									[
+										9861,
+										9871
+									],
+									[
+										10321,
+										10331
+									],
+									[
+										10537,
+										10547
+									],
+									[
+										10778,
+										10788
+									],
+									[
+										11306,
+										11316
+									],
+									[
+										11473,
+										11483
+									],
+									[
+										11515,
+										11525
+									],
+									[
+										11634,
+										11644
+									],
+									[
+										12005,
+										12015
+									],
+									[
+										12766,
+										12776
+									],
+									[
+										12778,
+										12788
+									],
+									[
+										13345,
+										13355
+									],
+									[
+										13357,
+										13367
+									],
+									[
+										13857,
+										13867
+									],
+									[
+										13869,
+										13879
+									],
+									[
+										14370,
+										14380
+									],
+									[
+										14601,
+										14611
+									],
+									[
+										14987,
+										14997
+									],
+									[
+										14999,
+										15009
+									],
+									[
+										15366,
+										15376
+									],
+									[
+										15894,
+										15904
+									],
+									[
+										16182,
+										16192
+									],
+									[
+										16194,
+										16204
+									],
+									[
+										16522,
+										16532
+									],
+									[
+										16564,
+										16574
+									],
+									[
+										16683,
+										16693
+									],
+									[
+										17054,
+										17064
+									],
+									[
+										17812,
+										17822
+									],
+									[
+										17824,
+										17834
+									],
+									[
+										18315,
+										18325
+									],
+									[
+										18327,
+										18337
+									],
+									[
+										18818,
+										18828
+									],
+									[
+										18830,
+										18840
+									],
+									[
+										19331,
+										19341
+									],
+									[
+										19562,
+										19572
+									],
+									[
+										19947,
+										19957
+									],
+									[
+										19959,
+										19969
+									],
+									[
+										20326,
+										20336
+									],
+									[
+										20854,
+										20864
+									],
+									[
+										21141,
+										21151
+									],
+									[
+										21153,
+										21163
+									],
+									[
+										21481,
+										21491
+									],
+									[
+										21523,
+										21533
+									],
+									[
+										21642,
+										21652
+									],
+									[
+										22013,
+										22023
+									],
+									[
+										22770,
+										22780
+									],
+									[
+										22782,
+										22792
+									],
+									[
+										23242,
+										23252
+									],
+									[
+										23458,
+										23468
+									],
+									[
+										23699,
+										23709
+									],
+									[
+										24227,
+										24237
+									],
+									[
+										24394,
+										24404
+									],
+									[
+										24436,
+										24446
+									],
+									[
+										24555,
+										24565
+									],
+									[
+										24926,
+										24936
+									],
+									[
+										25687,
+										25697
+									],
+									[
+										25699,
+										25709
+									],
+									[
+										26266,
+										26276
+									],
+									[
+										26278,
+										26288
+									],
+									[
+										26778,
+										26788
+									],
+									[
+										26790,
+										26800
+									],
+									[
+										27291,
+										27301
+									],
+									[
+										27522,
+										27532
+									],
+									[
+										27908,
+										27918
+									],
+									[
+										27920,
+										27930
+									],
+									[
+										28287,
+										28297
+									],
+									[
+										28815,
+										28825
+									],
+									[
+										29103,
+										29113
+									],
+									[
+										29115,
+										29125
+									],
+									[
+										29443,
+										29453
+									],
+									[
+										29485,
+										29495
+									],
+									[
+										29604,
+										29614
+									],
+									[
+										29975,
+										29985
+									],
+									[
+										30733,
+										30743
+									],
+									[
+										30745,
+										30755
+									],
+									[
+										31236,
+										31246
+									],
+									[
+										31248,
+										31258
+									],
+									[
+										31739,
+										31749
+									],
+									[
+										31751,
+										31761
+									],
+									[
+										32252,
+										32262
+									],
+									[
+										32491,
+										32501
+									],
+									[
+										32876,
+										32886
+									],
+									[
+										32888,
+										32898
+									],
+									[
+										33255,
+										33265
+									],
+									[
+										33783,
+										33793
+									],
+									[
+										34070,
+										34080
+									],
+									[
+										34082,
+										34092
+									],
+									[
+										34410,
+										34420
+									],
+									[
+										34452,
+										34462
+									],
+									[
+										34571,
+										34581
+									],
+									[
+										34942,
+										34952
+									],
+									[
+										35699,
+										35709
+									],
+									[
+										35711,
+										35721
+									],
+									[
+										36171,
+										36181
+									],
+									[
+										36395,
+										36405
+									],
+									[
+										36636,
+										36646
+									],
+									[
+										37164,
+										37174
+									],
+									[
+										37331,
+										37341
+									],
+									[
+										37373,
+										37383
+									],
+									[
+										37492,
+										37502
+									],
+									[
+										37863,
+										37873
+									],
+									[
+										38624,
+										38634
+									],
+									[
+										38636,
+										38646
+									],
+									[
+										39203,
+										39213
+									],
+									[
+										39215,
+										39225
+									],
+									[
+										39715,
+										39725
+									],
+									[
+										39727,
+										39737
+									],
+									[
+										40228,
+										40238
+									],
+									[
+										40459,
+										40469
+									],
+									[
+										40845,
+										40855
+									],
+									[
+										40857,
+										40867
+									],
+									[
+										41224,
+										41234
+									],
+									[
+										41752,
+										41762
+									],
+									[
+										42040,
+										42050
+									],
+									[
+										42052,
+										42062
+									],
+									[
+										42380,
+										42390
+									],
+									[
+										42422,
+										42432
+									],
+									[
+										42541,
+										42551
+									],
+									[
+										42912,
+										42922
+									],
+									[
+										43670,
+										43680
+									],
+									[
+										43682,
+										43692
+									],
+									[
+										44173,
+										44183
+									],
+									[
+										44185,
+										44195
+									],
+									[
+										44684,
+										44694
+									],
+									[
+										44696,
+										44706
+									],
+									[
+										45205,
+										45215
+									],
+									[
+										45444,
+										45454
+									],
+									[
+										45829,
+										45839
+									],
+									[
+										45841,
+										45851
+									],
+									[
+										46216,
+										46226
+									],
+									[
+										46744,
+										46754
+									],
+									[
+										47031,
+										47041
+									],
+									[
+										47043,
+										47053
+									],
+									[
+										47379,
+										47389
+									],
+									[
+										47421,
+										47431
+									],
+									[
+										47540,
+										47550
+									],
+									[
+										47911,
+										47921
+									],
+									[
+										48668,
+										48678
+									],
+									[
+										48680,
+										48690
+									],
+									[
+										49148,
+										49158
+									],
+									[
+										49372,
+										49382
+									],
+									[
+										49613,
+										49623
+									],
+									[
+										50141,
+										50151
+									],
+									[
+										50308,
+										50318
+									],
+									[
+										50350,
+										50360
+									],
+									[
+										50469,
+										50479
+									],
+									[
+										50840,
+										50850
+									],
+									[
+										51601,
+										51611
+									],
+									[
+										51613,
+										51623
+									],
+									[
+										52188,
+										52198
+									],
+									[
+										52200,
+										52210
+									],
+									[
+										52700,
+										52710
+									],
+									[
+										52712,
+										52722
+									],
+									[
+										53213,
+										53223
+									],
+									[
+										53444,
+										53454
+									],
+									[
+										53830,
+										53840
+									],
+									[
+										53842,
+										53852
+									],
+									[
+										54209,
+										54219
+									],
+									[
+										54737,
+										54747
+									],
+									[
+										55025,
+										55035
+									],
+									[
+										55037,
+										55047
+									],
+									[
+										55365,
+										55375
+									],
+									[
+										55407,
+										55417
+									],
+									[
+										55526,
+										55536
+									],
+									[
+										55897,
+										55907
+									],
+									[
+										56655,
+										56665
+									],
+									[
+										56667,
+										56677
+									],
+									[
+										57158,
+										57168
+									],
+									[
+										57170,
+										57180
+									],
+									[
+										57669,
+										57679
+									],
+									[
+										57681,
+										57691
+									],
+									[
+										58190,
+										58200
+									],
+									[
+										58429,
+										58439
+									],
+									[
+										58814,
+										58824
+									],
+									[
+										58826,
+										58836
+									],
+									[
+										59201,
+										59211
+									],
+									[
+										59729,
+										59739
+									],
+									[
+										60016,
+										60026
+									],
+									[
+										60028,
+										60038
+									],
+									[
+										60364,
+										60374
+									],
+									[
+										60406,
+										60416
+									],
+									[
+										60533,
+										60543
+									],
+									[
+										60904,
+										60914
+									],
+									[
+										61661,
+										61671
+									],
+									[
+										61673,
+										61683
+									],
+									[
+										62141,
+										62151
+									],
+									[
+										62365,
+										62375
+									],
+									[
+										62606,
+										62616
+									],
+									[
+										63134,
+										63144
+									],
+									[
+										63301,
+										63311
+									],
+									[
+										63343,
+										63353
+									],
+									[
+										63470,
+										63480
+									],
+									[
+										63841,
+										63851
+									],
+									[
+										64602,
+										64612
+									],
+									[
+										64614,
+										64624
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								64900,
+								64900
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 7,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 16784.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_deploy/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9668,
+								9678
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4685.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "source/_includes/custom/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -252,6 +1705,106 @@
 		"selected_items":
 		[
 			[
+				"header",
+				"source/_includes/custom/header.html"
+			],
+			[
+				"custom.scss",
+				"sass/custom/_styles.scss"
+			],
+			[
+				"head",
+				"source/_includes/head.html"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"about",
+				"source/about.html"
+			],
+			[
+				"index",
+				"source/index.html"
+			],
+			[
+				"sassresponsive",
+				"sass/theme/_responsive.scss"
+			],
+			[
+				"footer",
+				"source/_includes/custom/footer.html"
+			],
+			[
+				"defa",
+				"source/_layouts/default.html"
+			],
+			[
+				"customheader",
+				"source/_includes/custom/header.html"
+			],
+			[
+				"default",
+				"source/_layouts/default.html"
+			],
+			[
+				"defau",
+				"source/_layouts/default.html"
+			],
+			[
+				"",
+				"_config.yml"
+			],
+			[
+				"customstyle",
+				"sass/custom/_styles.scss"
+			],
+			[
+				"sourceinde",
+				"source/index.html"
+			],
+			[
+				"rake",
+				"Rakefile"
+			],
+			[
+				"themehead",
+				"source/_includes/theme/head.html"
+			],
+			[
+				"theme",
+				"sass/base/_theme.scss"
+			],
+			[
+				"customhead",
+				"source/_includes/custom/head.html"
+			],
+			[
+				"scree",
+				"sass/screen.scss"
+			],
+			[
+				"includehead",
+				"source/_includes/head.html"
+			],
+			[
+				"screen",
+				"public/stylesheets/screen.css"
+			],
+			[
+				"fonte",
+				"sass/theme/fontello.css"
+			],
+			[
+				"custom/sty",
+				"sass/custom/_styles.scss"
+			],
+			[
+				"screen.scss",
+				"sass/screen.scss"
+			],
+			[
 				"st",
 				"sass/custom/_styles.scss"
 			],
@@ -262,14 +1815,6 @@
 			[
 				"styles.",
 				"sass/custom/_styles.scss"
-			],
-			[
-				"screen",
-				"sass/screen.scss"
-			],
-			[
-				"config",
-				"_config.yml"
 			],
 			[
 				"off",
@@ -288,19 +1833,11 @@
 				"source/_includes/custom/index_template.html"
 			],
 			[
-				"index",
-				"source/index.html"
-			],
-			[
 				"personal/index",
 				"source/personal/index.html"
 			],
 			[
 				"style",
-				"sass/custom/_styles.scss"
-			],
-			[
-				"customstyle",
 				"sass/custom/_styles.scss"
 			],
 			[
