@@ -4,3 +4,17 @@
 
 
 a.anchor{display: block; position: relative; top: -70px; visibility: hidden;}
+
+.section_image {
+	float:right;
+	border: solid 1px #ccc;
+	border-radius: 8px;
+	padding: 5px 5px 0 5px;
+	webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+	margin-left: 10px;
+}
+
+.section_image img {
+	height: 120px;
+}
